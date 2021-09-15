@@ -1,4 +1,4 @@
-import Identify from './components/Identify'
+import Identify from './components/Identify.jsx'
 
 
 
