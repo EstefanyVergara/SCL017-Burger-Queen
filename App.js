@@ -1,3 +1,4 @@
+import { Fragment } from 'react/cjs/react.production.min';
 import Identify from './components/Identify.jsx'
 
 
@@ -5,9 +6,9 @@ import Identify from './components/Identify.jsx'
 
 function App() {
   return (
-    <div className = 'container mt-5'>
+    <Fragment>
     <Identify/>
-    </div>
+    </Fragment>
   );
 }
 
