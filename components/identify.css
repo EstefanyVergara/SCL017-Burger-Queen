@@ -57,12 +57,13 @@
   border-color: #7c40ff;
 }
 
-.btn-primary:hover {
-  background: #6634d1;
+.btn-primary:hover{
+  background: #361875;
   color: rgb(202, 199, 199);
   border-color: #7c40ff;
   cursor: pointer;
 }
+
 
 .btn-secondary {
   width: 80%;
