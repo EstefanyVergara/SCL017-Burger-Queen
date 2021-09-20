@@ -1,4 +1,5 @@
 import React, { Fragment }  from 'react';
+import { Link } from 'react-router-dom';
 import Logo from './assets/img/logo.png'
 import '../components/identify.css'
 
@@ -10,13 +11,12 @@ const Identify = () => {
             <img src = {Logo} alt = "burgir" className = "logo"/>
                 <div className="selectWorker">
                     <h1 className= "text1">SELECCIONA UNA OPCIÓN</h1>
-                    <button className = 'btn-primary'> Mesero</button>
+                    <Link className="btn-primary" to="/user">Mesero</Link>
                     <button className = 'btn-secondary' disabled> Cocina</button>
                 </div>
         </div>
         </Fragment>
     );
-
 };
 
 export default Identify;

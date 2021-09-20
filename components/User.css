@@ -1,0 +1,48 @@
+
+.card{
+  width: 60%;
+  position: relative;
+  overflow: hidden;
+  background: none;
+}
+
+.card:before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 280%;
+  top: -10%;
+  left: -110%;
+  transform: rotate(25deg);
+  transform-origin:center top  ;
+  transition: .5s;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.2);
+  
+}
+
+.card:hover:before{
+  left: 10%;
+  right: 10%
+
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+}
+
+.card-text{
+  width: 100%;
+  padding: 1em;
+  position: absolute;
+  top: -100%;
+  color: #fff;
+  left: 0;
+  transition: 1.1s;
+  text-align:center;
+}
+
+.card:hover .card-text{
+  top: 20px;
+}

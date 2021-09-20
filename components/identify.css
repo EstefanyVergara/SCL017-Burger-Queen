@@ -53,8 +53,9 @@
   background: #7c40ff;
   margin: 5%;
   box-sizing: border-box;
-  border-radius: 1em;
+  border-radius: 10px;
   border-color: #7c40ff;
+  text-decoration: none;
 }
 
 .btn-primary:hover{
@@ -71,5 +72,5 @@
   background: #c4c4c4;
   margin: 5%;
   box-sizing: border-box;
-  border-radius: 1em;
+  border-radius: 10px;
 }
