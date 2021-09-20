@@ -1,6 +1,5 @@
 import React, { Fragment }  from 'react';
 import { Link } from 'react-router-dom';
-import Logo from './assets/img/logo.png'
 import '../components/identify.css'
 
 const Identify = () => {
@@ -8,7 +7,7 @@ const Identify = () => {
     return (
         <Fragment>
         <div className = "container">
-            <img src = {Logo} alt = "burgir" className = "logo"/>
+            <img src = {'https://imgur.com/1tvsB1K.png'} alt = "burgir" className = "logo"/>
                 <div className="selectWorker">
                     <h1 className= "text1">SELECCIONA UNA OPCIÓN</h1>
                     <Link className="btn-primary" to="/user">Mesero</Link>
