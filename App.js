@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Identify from "./components/Identify.jsx";
-import User from "./components/user.jsx"
-import Menu from "./components/menu.jsx"
+import User from "./components/user"
+import Menu from "./components/Menu"
 
 function App() {
   return (
