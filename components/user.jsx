@@ -7,7 +7,6 @@ const User = () => {
     <Fragment>
       <div className="container">
         <div className="row">
-
           <div className="card">
             <img src={camila} alt="camila" />
             <div className="card-text">
@@ -21,9 +20,9 @@ const User = () => {
               <h3>Carolina Quintanilla</h3>
             </div>
           </div>
-          </div>
+        </div>
 
-          <div className="row">
+        <div className="row">
           <div className="card">
             <img src={camila} alt="camila" />
             <div className="card-text">
@@ -37,9 +36,9 @@ const User = () => {
               <h3> Juanita Gonzalez</h3>
             </div>
           </div>
-          </div>
+        </div>
 
-          <div className="row">
+        <div className="row">
           <div className="card">
             <img src={camila} alt="camila" />
             <div className="card-text">
@@ -53,7 +52,7 @@ const User = () => {
               <h3> Cecilia Hernandez</h3>
             </div>
           </div>
-          </div>
+        </div>
       </div>
     </Fragment>
   );

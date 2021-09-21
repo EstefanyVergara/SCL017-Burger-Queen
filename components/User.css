@@ -28,16 +28,16 @@
 } */
 
  .card img{
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
 .card-text{
-  width: 100%;
+  width: 80%;
   padding: 1em;
-  position: relative;
+  /* position: sticky; */
   color: #fff;
-  text-align:center;
+  text-align: center;
 }
 
 /* .card{
