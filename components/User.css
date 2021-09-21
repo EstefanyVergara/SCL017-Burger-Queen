@@ -4,7 +4,7 @@
   position: relative;
   overflow: hidden;
   background: none;
-    margin: 6%;
+  margin: 6%;
 }
 .row{
   width: 100%;
@@ -31,7 +31,7 @@
 
 } */
 
- .card img{
+.card img{
   width: 100%;
   height: auto;
 }
@@ -43,4 +43,6 @@
   color: #fff;
   text-align:center;
 }
-
+a{
+  text-decoration: none;
+}
