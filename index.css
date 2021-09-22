@@ -6,7 +6,9 @@
 }
 
 #root{
-  background-image: url(https://imgur.com/piuOQkm.png);
+  background-image: url(https://i.imgur.com/VdmnzCS.jpg);
   background-attachment: fixed;
   height: 100vh;
+  background-size: cover;
 }
+

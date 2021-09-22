@@ -1,9 +1,12 @@
 import React from 'react'
+import Nav from './Nav';
+import '../components/menu.css'
 
 export const Menu = () => {
   return (
-    <div>
-      <h1>Soy un menu</h1>
+    <div className='containerNav'>
+      <Nav/>
+      
     </div>
   )
 }
