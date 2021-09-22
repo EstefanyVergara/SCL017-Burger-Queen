@@ -1,5 +1,6 @@
 import React from "react";
 import '../components/Nav.css'
+import { Link } from 'react-router-dom';
 //import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
@@ -7,30 +8,30 @@ const Nav = () => {
     <div className="navigation">
       <ul className="navList">
         <li>
-          <a href="#">
+        <Link to="/breakfast">
             <img className='navIcon'
-              src={"https://imgur.com/1lZln5a.png"  }
+              src={"https://imgur.com/1lZln5a.png"}
               alt='coffe'
             />
-          </a>
+          </Link>
         </li>
 
         <li >
-          <a href="#">
+        <Link to="/burgir">
             <img className='navIcon'
               src={"https://imgur.com/v6EZtbD.png"}
               alt='burger'
             />
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href="#">
+        <Link to="/extras">
             <img className='navIcon'
               src={"https://imgur.com/yadMCBx.png"}
               alt='friesCoke'
             />
-          </a>
+          </Link>
         </li>
         </ul>
     </div>
