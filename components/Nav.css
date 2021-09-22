@@ -25,8 +25,5 @@ width: 5em;
   filter: drop-shadow(0px 4px 4px rgba(124, 64, 255, 0.452));
   }
 
-.navIcon:after{
-  background-image: url(./coffee.png);
 
-}
 

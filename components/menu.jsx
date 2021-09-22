@@ -1,5 +1,6 @@
 import React from "react";
-import Nav from "./Nav";
+import {Nav} from "./Nav";
+import Mesas from './mesas'
 import Ordersummary from "./orderSummary";
 import "../components/menu.css";
 
@@ -8,6 +9,7 @@ export const Menu = () => {
     <div className="menuContainer">
       <Ordersummary />
       <Nav/>
+      <Mesas/>
     </div>
   );
 };
