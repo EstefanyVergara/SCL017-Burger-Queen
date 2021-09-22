@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import {Nav} from "./Nav";
+import Mesas from './mesas'
+import Ordersummary from "./orderSummary";
+import "../components/menu.css";
 
 export const Menu = () => {
   return (
-    <div>
-      <h1>Soy un menu</h1>
+    <div className="menuContainer">
+      <Ordersummary />
+      <Nav/>
+      <Mesas/>
     </div>
-  )
-}
+  );
+};
 
 export default Menu;

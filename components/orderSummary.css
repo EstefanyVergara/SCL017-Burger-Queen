@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+.summaryContainer{
+    width: 40%;
+    height: 85%;
+    position:absolute;
+    top:7%;
+    right:1.5%;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 11px 11px 0px -1px rgba(0, 0, 0, 0.58);
+    border-radius: 51px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.textResume{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 722%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.tableNumContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: row;
+    background: #C4C4C4;
+    border-radius: 13px;
+    width: 90%;
+    padding: 1% 5%;
+}
+.orderContainer{
+    position: relative;
+    margin: 2%;
+    width: 90%;
+    height: 90%;
+    background: #C4C4C4;
+    border-radius: 22px;
+}
+.btn-light
+{
+    width: 30%;
+    font-size: 3em;
+    background: #BC6FF1;
+    border-radius: 19px;
+    margin: 5%;
+    box-sizing: border-box;
+    border-color: #7c40ff;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    text-decoration-color: #FFFFFF;
+    position:relative;
+    top: -3%;
+    right:-20%;
+}
+.btn-light:hover{
+    background: #361875;
+    color: rgb(202, 199, 199);
+    border-color: #7c40ff;
+    cursor: pointer;
+}
