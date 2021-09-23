@@ -1,0 +1,87 @@
+{
+  "Breakfast": [
+    {
+      "product": "Sandwich de jamón y queso",
+      "id": "1",
+      "price": 10,
+      "img": "https://imgur.com/7Uv1Ihy.png"
+    },
+    {
+      "product": "Café americano",
+      "id": "2",
+      "price": 5,
+      "img": "https://imgur.com/qdo2Olt.png"
+    },
+    {
+      "product": "Café late",
+      "id": "3",
+      "price": 7,
+      "img": "https://imgur.com/2Gb6vjN.png"
+    },
+    {
+      "product": "Jugo natural",
+      "id": "4",
+      "price": 7,
+      "img": "https://imgur.com/DjeLasM.png"
+    }
+  ],
+
+  "burgir": [
+    {
+      "product": "Galáctica",
+      "id": "5",
+      "price": 10,
+      "img": "https://imgur.com/zgB4fvf.png"
+    },
+    {
+      "product": "Big bang",
+      "id": "6",
+      "price": 10,
+      "img": "https://imgur.com/5DCNsm5.png"
+    },
+    {
+      "product": "Apolo doble",
+      "id": "7",
+      "price": 15,
+      "img": "https://imgur.com/U8Y5wpj.png"
+    },
+    {
+      "product": "Astro Doble",
+      "id": "8",
+      "price": 15,
+      "img": "https://imgur.com/JPK4bfj.png"
+    }
+  ],
+
+  "typeBurgir": ["Vacuno", "Pollo", "Vegetariana"],
+  "add": [
+    { "product": "Queso", "price": 1 , "id": "9"},
+    { "product": "Huevo", "price": 1, "id": "10"}
+  ],
+
+  "extras": [
+    {
+      "product": "Papas E.T",
+      "id": "11",
+      "price": 5,
+      "img": "https://imgur.com/c7o1G0M.png"
+    },
+    {
+      "product": "Onion Space",
+      "id": "12",
+      "price": 5,
+      "img": "https://imgur.com/9As9vhZ.png"
+    }
+  ],
+
+  "soda": [
+    { "img": "https://imgur.com/sz3k3Yi.png" },
+    { "product": "Bebida 500 ML", "price": 7 },
+    { "product": "Bebida 700 ML", "price": 10 }
+  ],
+  "water": [
+    { "img": "https://imgur.com/JH1sHd2.png" },
+    { "product": "Agua 500 ML", "price": 5 },
+    { "product": "Agua 700 ML", "price": 7 }
+  ]
+}
