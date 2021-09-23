@@ -1,0 +1,44 @@
+{
+    "breakfast": {
+        "food": [
+            { "name": "Sandwich de jamón y queso", "price": 10, "img": "https://imgur.com/7Uv1Ihy.png" }
+            ],
+        "drinks": [
+            { "product": "Café americano", "price": 5, "img": "https://imgur.com/qdo2Olt.png" },
+            { "product": "Café late", "price": 7, "img": "https://imgur.com/2Gb6vjN.png" },
+            { "product": "Jugo natural", "price": 7,"img": "https://imgur.com/DjeLasM.png" }
+        ]
+
+    },
+    "burgers": {
+        "burgir": [
+            {"Product": "Galáctica", "price": 10, "img": "https://imgur.com/zgB4fvf.png"},
+            {"Product": "Big bang", "price": 10, "img": "https://imgur.com/5DCNsm5.png"},
+            {"Product": "Apolo doble", "price": 15, "img": "https://imgur.com/U8Y5wpj.png"},
+            {"Product": "Astro Doble", "price": 15, "img": "https://imgur.com/JPK4bfj.png"}
+        ],
+        "typeBurgir": ["Vacuno", "Pollo", "Vegetariana"],
+        "add": [
+            {"Product": "Queso", "price": 1},
+            {"Product": "Huevo", "price": 1}
+        ]
+    },
+    "extras": {
+        "food": [
+            {"Product": "Papas E.T", "price": 5, "img": "https://imgur.com/c7o1G0M.png"},
+            {"Product": "Onion Space", "price": 5, "img": "https://imgur.com/9As9vhZ.png"}
+        ],
+        "drinks": {
+            "soda": [
+                {"img": "https://imgur.com/sz3k3Yi.png"},
+                {"Product": "Bebida 500 ML", "price": 7},
+                {"Product": "Bebida 700 ML", "price": 10}
+            ],
+            "water": [
+                {"img": "https://imgur.com/JH1sHd2.png"},
+                {"Product": "Agua 500 ML", "price": 5},
+                {"Product": "Agua 700 ML", "price": 7}
+            ]
+        }
+    }
+  }
