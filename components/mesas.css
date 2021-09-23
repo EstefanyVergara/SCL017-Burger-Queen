@@ -1,0 +1,35 @@
+.Menu-dropdown{
+  width: 23%;
+  margin-left: 9em;
+}
+.btnMesa{
+  width: 80%;
+  font-size: 2em;
+  background: #bc6ff1;
+  margin: 7%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.btn-check:focus+.btnMesa, .btnMesa:focus, .btnMesa:hover {
+  color: #fff;
+  background-color: #7C40FF;
+  box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
+}
+
+.dropdown-menu{
+  z-index: 1000;
+  display: none;
+  min-width: 23rem;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #212529;
+  text-align: center;
+  list-style: hangul-consonant;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 0.25rem;
+}
+
