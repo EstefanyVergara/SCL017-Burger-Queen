@@ -28,7 +28,7 @@
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .card-title{
     font-size: 150%;
@@ -36,6 +36,7 @@
 .card-price{
     font-size: 170%;
     font-weight: bold;
+    margin: 0%;
 }
 .breakfastIcon{
     width: 5em;
@@ -54,4 +55,12 @@
     color: white;
     font-size: 250%;
     font-weight: bold;
+}
+.btnBurgir{
+    font-size: 200%;
+    border: 0ch;
+    color:  rgba(124, 64, 255, 1);
+    width: 20%;
+    height: 80%;
+    margin: 0%;
 }
