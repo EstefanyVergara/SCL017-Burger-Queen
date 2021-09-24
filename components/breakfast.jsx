@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Ordersummary from "./orderSummary";
 import "../components/menu.css";
 import {NavBreakfast} from "./Nav";
@@ -9,13 +9,20 @@ export const Breakfast = () => {
 
     const dataBreakfast = data.Breakfast
     console.log(dataBreakfast);
+
+
+    const [breakfast, setBreakfast] = React.useState(null)
+
+    React.useEffect(()=> {
+      console.log(useEffect)
+    }
+    )
     
 
   return (
-    <div classNameName="menuContainer">
+    <div className="menuContainer">
       <Ordersummary />
       <NavBreakfast/>
-     
     </div>
   )
 }
