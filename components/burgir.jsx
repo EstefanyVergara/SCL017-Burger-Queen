@@ -30,9 +30,9 @@ export const Burgir = () => {
                 <button className="btnBurgir btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                  <li><a className="dropdown-item" href="#">{dataTypeBurgir[0]} </a></li>
-                  <li><a className="dropdown-item" href="#">{dataTypeBurgir[1]}</a></li>
-                  <li><a className="dropdown-item" href="#">{dataTypeBurgir[2]}</a></li>
+                <button class="dropdown-item" type="button">{dataTypeBurgir[0]} </button>
+                <button class="dropdown-item" type="button">{dataTypeBurgir[1]} </button>
+                <button class="dropdown-item" type="button">{dataTypeBurgir[2]} </button>
                 </ul>
 
             </div>
