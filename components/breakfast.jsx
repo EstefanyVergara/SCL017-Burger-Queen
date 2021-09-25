@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import Ordersummary from "./orderSummary";
 import "../components/menu.css";
 import {NavBreakfast} from "./Nav";
@@ -30,6 +29,8 @@ export const Breakfast = () => {
         </div>
         ))
         }
+
+
         
 
       </div>
