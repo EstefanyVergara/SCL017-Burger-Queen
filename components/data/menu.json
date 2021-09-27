@@ -71,28 +71,24 @@
       "id": "12",
       "price": 5,
       "img": "https://imgur.com/9As9vhZ.png"
-    },
-    {
-      "img": "https://imgur.com/sz3k3Yi.png",
-      "name": "Bebida 500 ML",
-      "id": "13",
-      "price": 7
-    },
-    {
-      "img": "https://imgur.com/JH1sHd2.png",
-      "name": "Agua 500 ML",
-      "id": "14",
-      "price": 5
     }
   ],
 
-  "addExtra": [
-    { "name": "Agua", 
-      "price": 1, 
-      "id": "15" 
+  "drinks":[
+    {
+      "name": "Agua 500 ML",
+      "id": "14",
+      "price": 5 ,
+      "size" : ["Agua 750 ML + $7"],
+      "img" : "https://imgur.com/JH1sHd2.png"
     },
-    { "name": "Bebida", 
-      "price": 1, 
-      "id": "16" }
+    {
+      "name": "Bebida 500 ML",
+      "id": "15",
+      "price": 7 ,
+      "size" : ["Bebida 750 ML + $10"],
+      "img" : "https://imgur.com/sz3k3Yi.png"
+    }
   ]
+  
 }

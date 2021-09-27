@@ -7,7 +7,7 @@ import data from './data/menu.json'
 export const Breakfast = () => {
 
     const dataBreakfast = data.breakfast
-    console.log(dataBreakfast)
+    
     
 
   return (

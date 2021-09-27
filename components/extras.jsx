@@ -1,49 +1,60 @@
-import React from 'react'
+import React from "react";
 import Ordersummary from "./orderSummary";
 import "../components/menu.css";
-import {NavExtras} from './Nav'
-import data from './data/menu.json'
-
+import { NavExtras } from "./Nav";
+import data from "./data/menu.json";
 
 export const Extras = () => {
-
   const dataExtras = data.extras;
-  const addExtras = data.addExtra;
-
+  const dataDrinks = data.drinks;
 
   return (
-    <div classNameName="menuContainer">
-    <Ordersummary />
-    <NavExtras/>
-
-    <div classNameName="nameMenu">
-        <img src={"https://imgur.com/yadMCBx.png"} classNameName="breakfastIcon" alt="..."/>
-        <h1 classNameName="titleBreakfast" > EXTRAS </h1>
+    <div className="menuContainer">
+      <Ordersummary />
+      <NavExtras />
+      <div className="nameMenu">
+        <img
+          src={"https://imgur.com/yadMCBx.png"}
+          className="breakfastIcon"
+          alt="..."
+        />
+        <h1 className="titleBreakfast"> EXTRAS </h1>
       </div>
-      <div classNameName="Menu">
+      <div className="Menu">
         {dataExtras.map((product) => (
-          <div key={product.id} classNameName="cardMenu ">
-            <img src={product.img} classNameName="card-img-top" alt="..."/>
-            <div classNameName ="card-body">
-              <h5 classNameName ="card-title">{product.name}</h5>
-              <p classNameName ="card-price">${product.price}</p>
+          <div key={product.id} className="cardMenu ">
+            <img src={product.img} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">{product.name}</h5>
+              <p className="card-price">${product.price}</p>
             </div>
-        </div>
-        ))
-        }
+          </div>
+        ))}
+      <>
+          {dataDrinks.map((product) => (
+          <div key={product.id} className="cardMenu ">
+            <img src={product.img} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">{product.name}</h5>
+              <p className="card-price">${product.price}</p>
+              <button className="btnBurgir btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <button className="dropdown-item" type="button">{product.size[0]} </button>
+                <button className="dropdown-item" type="button">{product.size[1]} </button>
+                <button className="dropdown-item" type="button">{product.size[2]} </button>
+                </ul>
+            </div>
+          </div>
+))} 
+
+      </>
+
+
+
+
+
       </div>
-
-      <div className="dropdown">
-                <button className="btnBurgir btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
-                  <button className="dropdown-item" type="button">{[addExtras[0]]}</button>
-                  <button className="dropdown-item" type="button">{[addExtras[1]]}</button>
-                </div>
-              </div> 
-  </div>
-  )
-}
-
-
-
-
+    </div>
+  );
+};
