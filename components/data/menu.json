@@ -1,25 +1,25 @@
 {
-  "Breakfast": [
+  "breakfast": [
     {
-      "product": "Sandwich de jamón y queso",
+      "name": "Sandwich de J/Q",
       "id": "1",
       "price": 10,
       "img": "https://imgur.com/7Uv1Ihy.png"
     },
     {
-      "product": "Café americano",
+      "name": "Café americano",
       "id": "2",
       "price": 5,
       "img": "https://imgur.com/qdo2Olt.png"
     },
     {
-      "product": "Café late",
+      "name": "Café late",
       "id": "3",
       "price": 7,
       "img": "https://imgur.com/2Gb6vjN.png"
     },
     {
-      "product": "Jugo natural",
+      "name": "Jugo natural",
       "id": "4",
       "price": 7,
       "img": "https://imgur.com/DjeLasM.png"
@@ -28,25 +28,25 @@
 
   "burgir": [
     {
-      "product": "Galáctica",
+      "name": "Galáctica",
       "id": "5",
       "price": 10,
       "img": "https://imgur.com/zgB4fvf.png"
     },
     {
-      "product": "Big bang",
+      "name": "Big bang",
       "id": "6",
       "price": 10,
       "img": "https://imgur.com/5DCNsm5.png"
     },
     {
-      "product": "Apolo doble",
+      "name": "Apolo doble",
       "id": "7",
       "price": 15,
       "img": "https://imgur.com/U8Y5wpj.png"
     },
     {
-      "product": "Astro Doble",
+      "name": "Astro Doble",
       "id": "8",
       "price": 15,
       "img": "https://imgur.com/JPK4bfj.png"
@@ -55,33 +55,40 @@
 
   "typeBurgir": ["Vacuno", "Pollo", "Vegetariana"],
   "add": [
-    { "product": "Queso", "price": 1 , "id": "9"},
-    { "product": "Huevo", "price": 1, "id": "10"}
+    { "name": "Queso", "price": 1, "id": "9" },
+    { "name": "Huevo", "price": 1, "id": "10" }
   ],
 
   "extras": [
     {
-      "product": "Papas E.T",
+      "name": "Papas E.T",
       "id": "11",
       "price": 5,
       "img": "https://imgur.com/c7o1G0M.png"
     },
     {
-      "product": "Onion Space",
+      "name": "Onion Space",
       "id": "12",
       "price": 5,
       "img": "https://imgur.com/9As9vhZ.png"
     }
   ],
 
-  "soda": [
-    { "img": "https://imgur.com/sz3k3Yi.png" },
-    { "product": "Bebida 500 ML", "price": 7 },
-    { "product": "Bebida 700 ML", "price": 10 }
-  ],
-  "water": [
-    { "img": "https://imgur.com/JH1sHd2.png" },
-    { "product": "Agua 500 ML", "price": 5 },
-    { "product": "Agua 700 ML", "price": 7 }
+  "drinks":[
+    {
+      "name": "Agua 500 ML",
+      "id": "13",
+      "price": 5 ,
+      "size" : ["Agua 750 ML + $7"],
+      "img" : "https://imgur.com/JH1sHd2.png"
+    },
+    {
+      "name": "Bebida 500 ML",
+      "id": "14",
+      "price": 7 ,
+      "size" : ["Bebida 750 ML + $10"],
+      "img" : "https://imgur.com/sz3k3Yi.png"
+    }
   ]
+  
 }

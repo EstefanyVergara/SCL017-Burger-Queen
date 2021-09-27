@@ -1,7 +1,7 @@
-.navigation{
+.navigation {
   width: 8rem;
   height: 100vh;
-  background-color: #1F2027;
+  background-color: #1f2027;
   position: fixed;
 }
 
@@ -17,13 +17,10 @@
   flex-wrap: wrap;
 }
 
-.navIcon{
-width: 5em;
+.navIcon {
+  width: 5em;
 }
 
-.navIcon:hover{
+.navIcon:hover {
   filter: drop-shadow(0px 4px 4px rgba(124, 64, 255, 0.452));
-  }
-
-
-
+}

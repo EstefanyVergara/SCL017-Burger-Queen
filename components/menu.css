@@ -2,3 +2,75 @@
     background-color: rgba(42, 46, 61, 1);
     height: 100vh;
 }
+.Menu{
+    position: absolute;
+    margin: auto;
+    top: 20%;
+    left: 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto auto;
+    column-gap: 5rem;
+}
+.cardMenu{
+    display: flex;
+    width: 20rem;
+    margin: 10% 25%;
+    background: #c4c4c4;
+    border-radius: 20px;
+    cursor: pointer;
+    flex-direction: column;
+
+}
+.card-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-title{
+    font-size: 150%;
+}
+.card-price{
+    font-size: 170%;
+    font-weight: bold;
+    margin: 0%;
+}
+.breakfastIcon{
+    width: 5em;
+}
+.nameMenu{
+    display: flex;
+    left: 14%;
+    width: 20%;
+    position: relative;
+    top: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.titleBreakfast{
+    color: white;
+    font-size: 250%;
+    font-weight: bold;
+}
+.btnBurgir{
+    font-size: 200%;
+    border: 0ch;
+    color:  rgba(124, 64, 255, 1);
+    width: 20%;
+    height: 80%;
+    margin: -4%;
+}
+.select{
+    width: 100%;
+    margin-left: 20%;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -8,9 +8,9 @@ const Mesas = () => {
     ESCOGE MESA 
   </button>
   <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-    <li><a className="dropdown-item" href="#">Mesa 1</a></li>
-    <li><a className="dropdown-item" href="#">Mesa 2</a></li>
-    <li><a className="dropdown-item" href="#">Mesa 3</a></li>
+    <li><a className="dropdown-item" href="/">Mesa 1</a></li>
+    <li><a className="dropdown-item" href="/">Mesa 2</a></li>
+    <li><a className="dropdown-item" href="/">Mesa 3</a></li>
   </ul>
 </div>
   )
