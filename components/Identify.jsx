@@ -1,10 +1,9 @@
-import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import "../components/identify.css";
 
 const Identify = () => {
 return (
-    <Fragment>
+    <>
     <div className="container">
         <img
         src={"https://imgur.com/1tvsB1K.png"}
@@ -22,8 +21,8 @@ return (
         </button>
         </div>
     </div>
-    </Fragment>
+    </>
 );
 };
-
+// 453201
 export default Identify;

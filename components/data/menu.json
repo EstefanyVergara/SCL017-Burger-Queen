@@ -77,14 +77,14 @@
   "drinks":[
     {
       "name": "Agua 500 ML",
-      "id": "14",
+      "id": "13",
       "price": 5 ,
       "size" : ["Agua 750 ML + $7"],
       "img" : "https://imgur.com/JH1sHd2.png"
     },
     {
       "name": "Bebida 500 ML",
-      "id": "15",
+      "id": "14",
       "price": 7 ,
       "size" : ["Bebida 750 ML + $10"],
       "img" : "https://imgur.com/sz3k3Yi.png"
