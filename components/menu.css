@@ -28,7 +28,7 @@
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .card-title{
     font-size: 150%;
@@ -62,12 +62,13 @@
     color:  rgba(124, 64, 255, 1);
     width: 20%;
     height: 80%;
-    margin: 0%;
+    margin: -4%;
 }
-
-.card-img-top{
-    width: 101%;
-    padding: -1%;
-    margin-left: -1%;
-    margin-top: -1%;
+.select{
+    width: 100%;
+    margin-left: 20%;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
 }

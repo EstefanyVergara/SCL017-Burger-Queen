@@ -9,7 +9,7 @@ export const Burgir = () => {
 
     const dataBurgir = data.burgir
     const dataTypeBurgir = data.typeBurgir
-    
+    const dataAdd = data.add
     
 
   return (
@@ -29,10 +29,15 @@ export const Burgir = () => {
               <p className ="card-price">${product.price}</p>
                 <button className="btnBurgir btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                 </button>
-                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                <button className="dropdown-item" type="button">{dataTypeBurgir[0]} </button>
-                <button className="dropdown-item" type="button">{dataTypeBurgir[1]} </button>
-                <button className="dropdown-item" type="button">{dataTypeBurgir[2]} </button>
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2" multiple required>
+                <button class="dropdown-item" type="button">{dataTypeBurgir[0]} </button>
+                <button class="dropdown-item" type="button">{dataTypeBurgir[1]} </button>
+                <button class="dropdown-item" type="button">{dataTypeBurgir[2]} </button>
+                <div class="dropdown-divider"></div>
+                  <div className="checkbox">
+                    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Queso"/> {dataAdd[0].name} ${dataAdd[0].price} 
+                    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Huevo"/> {dataAdd[1].name}  ${dataAdd[1].price}
+                  </div>
                 </ul>
             </div>
         </div>
