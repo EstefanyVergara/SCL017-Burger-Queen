@@ -34,7 +34,6 @@ export const Burgir = () => {
                 <button className="dropdown-item" type="button">{dataTypeBurgir[1]} </button>
                 <button className="dropdown-item" type="button">{dataTypeBurgir[2]} </button>
                 </ul>
-
             </div>
         </div>
         ))
