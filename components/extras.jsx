@@ -30,26 +30,39 @@ export const Extras = () => {
             </div>
           </div>
         ))}
-      <>
+        <>
           {dataDrinks.map((product) => (
-          <div key={product.id} className="cardMenu ">
-            <button className="" type="button"><img src={product.img} className="card-img-top" alt="..." /> </button>
-            <div className="card-body">
-              <h5 className="card-title">{product.name}</h5>
-              <p className="card-price">${product.price}</p>
-              <button className="btnBurgir btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                </button>
-                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                <button className="dropdown-item" type="button">{product.size[0]} </button>
-                <button className="dropdown-item" type="button">{product.size[1]} </button>
-                <button className="dropdown-item" type="button">{product.size[2]} </button>
+            <div key={product.id} className="cardMenu ">
+              <button className="" type="button">
+                <img src={product.img} className="card-img-top" alt="..." />{" "}
+              </button>
+              <div className="card-body">
+                <h5 className="card-title">{product.name}</h5>
+                <p className="card-price">${product.price}</p>
+                <button
+                  className="btnBurgir btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton2"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                ></button>
+                <ul
+                  className="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton2"
+                >
+                  <div className="checkbox">
+                    <input
+                      className="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                    />{" "}
+                    {product.size[0]}
+                  </div>
                 </ul>
+              </div>
             </div>
-          </div>
-))} 
-        
-      </>
-      
+          ))}
+        </>
       </div>
     </div>
   );
