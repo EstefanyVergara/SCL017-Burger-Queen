@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import "../components/User.css";
 import { Link } from 'react-router-dom';
+import { addMesero } from "../firebase";
 
 const User = () => {
   return (
@@ -9,7 +10,7 @@ const User = () => {
 
         <div className="row">
           <div className="card">
-            <Link to={{ pathname: "/menu", state: 'Camila Zuñiga' }}>
+            <Link to={{ pathname: "/menu", state: 'Camila Zuñiga' }} addMesero={addMesero()}>
               <img src={'https://imgur.com/3b9N1bL.png'} alt="camila" />
               <div className="card-text">
                 <h3>Camila Zuñiga</h3>

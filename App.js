@@ -5,8 +5,10 @@ import Menu from "./components/menu"
 import { Breakfast } from "./components/breakfast";
 import { Burgir } from "./components/burgir";
 import { Extras } from "./components/extras";
+import React from "react";
 
 function App() {
+
   return (
     <Router>
       <Switch>
