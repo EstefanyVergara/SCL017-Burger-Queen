@@ -1,0 +1,117 @@
+{ 
+    "menu": [
+    {
+      "id": "1",
+      "title": "Sandwich de J/Q",
+      "category": "breakfast",
+      "price": 10,
+      "img": "https://imgur.com/7Uv1Ihy.png"
+    },
+    {
+      "id": 2,
+      "title": "Café americano",
+      "category": "breakfast",
+      "price": 5,
+      "img": "https://imgur.com/qdo2Olt.png"
+    },
+    {
+      "id": 3,
+      "title": "Café late",
+      "category": "breakfast",
+      "price": 7,
+      "img": "https://imgur.com/2Gb6vjN.png"
+    },
+    {
+      "id": 4,
+      "title": "Jugo natural",
+      "category": "breakfast",
+      "price": 7,
+      "img": "https://imgur.com/DjeLasM.png"
+    },
+    {
+      "id": 5,
+      "title": "Galáctica",
+      "category": "burgir",
+      "price": 10,
+      "img": "https://imgur.com/zgB4fvf.png"
+    },
+    {
+      "id": 6,
+      "title": "Big bang",
+      "category": "burgir",
+      "price": 10,
+      "img": "https://imgur.com/5DCNsm5.png",
+      "option": ["Pollo", "Vacuno", "Vegetariana"]
+    },
+    {
+      "id": 7,
+      "title": "Apolo doble",
+      "category": "burgir",
+      "price": 15,
+      "img": "https://imgur.com/U8Y5wpj.png"
+    },
+    {
+      "id": 8,
+      "title": "Astro Doble",
+      "category": "burgir",
+      "price": 15,
+      "img": "https://imgur.com/JPK4bfj.png"
+    },
+    {
+      "id": 9,
+      "title": "Papas E.T",
+      "category": "extras",
+      "price": 5,
+      "img": "https://imgur.com/c7o1G0M.png"
+    },
+    {
+      "id": 10,
+      "title": "Onion Space",
+      "category": "extras",
+      "price": 5,
+      "img": "https://imgur.com/9As9vhZ.png"
+    },
+    {
+      "id": 11,
+      "title": "Extra-Queso",
+      "category": "extras",
+      "price": 1,
+      "img": "https://i.imgur.com/32UNrzB.png"
+    },
+    {
+      "id": 12,
+      "title": "Extra-Bacon",
+      "category": "extras",
+      "price": 1,
+      "img": "https://i.imgur.com/73qG972.png"
+    },
+    {
+      "id": 13,
+      "title": "Agua Mineral",
+      "category": "Drinks",
+      "price": 5,
+      "img": "https://imgur.com/JH1sHd2.png"
+    },
+    {
+      "id": 14,
+      "title": "Bebida 500 ML",
+      "category": "Drinks",
+      "price": 5,
+      "img": "https://imgur.com/sz3k3Yi.png"
+    },
+    {
+      "id": 15,
+      "title": "Cerveza Shop",
+      "category": "Drinks",
+      "price": 5,
+      "img": "https://i.imgur.com/Z5bswEE.png"
+    },
+    {
+      "id": 16,
+      "title": "Mojito",
+      "category": "Drinks",
+      "price": 5,
+      "img": "https://i.imgur.com/Hd2ZP3d.png"
+    }
+  ]
+}
