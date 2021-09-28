@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../components/identify.css";
+import "../components/css/identify.css";
 
 const Identify = () => {
 return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Ordersummary from "./orderSummary";
-import "../components/menu.css";
+import "../components/css/menu.css";
 import { NavExtras } from "./Nav";
 import data from "./data/menu.json";
 

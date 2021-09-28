@@ -2,7 +2,7 @@ import React from "react";
 import {Nav} from "./Nav";
 import Mesas from './mesas'
 import Ordersummary from "./orderSummary";
-import "../components/menu.css";
+import "../components/css/menu.css";
 
 export const Menu = () => {
   return (

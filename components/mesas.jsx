@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/mesas.css'
+import '../components/css/mesas.css'
 
 const Mesas = () => {
   return (

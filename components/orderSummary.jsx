@@ -1,4 +1,4 @@
-import "../components/orderSummary.css";
+import "../components/css/orderSummary.css";
 import { useLocation } from "react-router";
 
 const Ordersummary = () => {

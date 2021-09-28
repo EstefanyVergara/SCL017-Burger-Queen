@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "../components/User.css";
+import "../components/css/user.css";
 import { Link } from 'react-router-dom';
 
 const User = () => {
