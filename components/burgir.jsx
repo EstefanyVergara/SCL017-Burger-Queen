@@ -2,16 +2,12 @@ import React from "react";
 import Ordersummary from "./orderSummary";
 import "../components/css/menu.css";
 import { NavBurgir } from "./Nav";
-import data from "./data/menu.json";
 
-export const Burgir = () => {
-  const dataBurgir = data.burgir;
-  const dataTypeBurgir = data.typeBurgir;
-  const dataAdd = data.add;
+const Burgir = ({dataBurgir, dataTypeBurgir, dataAdd, mesero, mesa}) => {
 
   return (
     <div className="menuContainer">
-      <Ordersummary />
+      <Ordersummary mesero={mesero} mesa={mesa} />
       <NavBurgir />
       <div className="nameMenu">
         <img
@@ -75,3 +71,4 @@ export const Burgir = () => {
     </div>
   );
 };
+export default Burgir;

@@ -4,13 +4,13 @@ import "../components/css/menu.css";
 import { NavExtras } from "./Nav";
 import data from "./data/menu.json";
 
-export const Extras = () => {
+const Extras = ({mesero, mesa}) => {
   const dataExtras = data.extras;
   const dataDrinks = data.drinks;
 
   return (
     <div className="menuContainer">
-      <Ordersummary />
+      <Ordersummary mesero={mesero} mesa={mesa} />
       <NavExtras />
       <div className="nameMenu">
         <img
@@ -69,3 +69,4 @@ export const Extras = () => {
     </div>
   );
 };
+export default Extras;

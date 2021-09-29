@@ -44,28 +44,40 @@
     background: #C4C4C4;
     border-radius: 22px;
 }
-.btn-light
-{
-    width: 30%;
+.btn-light {
+    width: 100%;
     font-size: 3em;
     background: #BC6FF1;
-    border-radius: 19px;
-    margin: 5%;
-    box-sizing: border-box;
+    border-radius: 7px;
+    margin: 8%;
     border-color: #7c40ff;
-    text-decoration: none;
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
     font-size: 36px;
     text-decoration-color: #FFFFFF;
-    position:relative;
-    top: -3%;
-    right:-20%;
+    color: #FFFFFF;
 }
 .btn-light:hover{
     background: #361875;
     color: rgb(202, 199, 199);
     border-color: #7c40ff;
     cursor: pointer;
+}
+
+.btn-dark {
+    width: 100%;
+    font-size: 3em;
+    background: #2A2E3D;
+    border-radius: 7px;
+    margin: 8%;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 36px;
+    text-decoration-color: #FFFFFF;
+}
+
+.btn-order{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
 }

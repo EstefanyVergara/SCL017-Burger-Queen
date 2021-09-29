@@ -1,14 +1,13 @@
 import Ordersummary from "./orderSummary";
 import "../components/css/menu.css";
 import { NavBreakfast } from "./Nav";
-import data from "./data/menu.json";
 
-export const Breakfast = () => {
-  const dataBreakfast = data.breakfast;
+
+const Breakfast = ({dataBreakfast, mesero, mesa}) => {
 
   return (
     <div className="menuContainer">
-      <Ordersummary />
+      <Ordersummary mesero={mesero} mesa={mesa}/>
       <NavBreakfast />
       <div className="nameMenu">
         <img
@@ -19,9 +18,12 @@ export const Breakfast = () => {
         <h1 className="titleBreakfast"> DESAYUNOS </h1>
       </div>
       <div className="Menu">
+
         {dataBreakfast.map((product) => (
           <div key={product.id} className="cardMenu ">
-            <button className="" type="button">
+            <button className="" type="button" onClick={() => {
+
+            }}>
               <img src={product.img} className="card-img-top" alt="..." />{" "}
             </button>
             <div className="card-body">
@@ -34,3 +36,4 @@ export const Breakfast = () => {
     </div>
   );
 };
+export default Breakfast;
