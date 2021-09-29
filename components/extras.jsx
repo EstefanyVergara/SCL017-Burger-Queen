@@ -4,13 +4,13 @@ import "../components/css/menu.css";
 import { NavExtras } from "./Nav";
 import data from "./data/menu.json";
 
-const Extras = ({mesero, mesa}) => {
+const Extras = ({mesero, mesa, order, setOrder}) => {
   const dataExtras = data.extras;
   const dataDrinks = data.drinks;
 
   return (
     <div className="menuContainer">
-      <Ordersummary mesero={mesero} mesa={mesa} />
+      <Ordersummary mesero={mesero} mesa={mesa} order={order} setOrder={setOrder} />
       <NavExtras />
       <div className="nameMenu">
         <img

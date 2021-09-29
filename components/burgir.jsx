@@ -3,11 +3,11 @@ import Ordersummary from "./orderSummary";
 import "../components/css/menu.css";
 import { NavBurgir } from "./Nav";
 
-const Burgir = ({dataBurgir, dataTypeBurgir, dataAdd, mesero, mesa}) => {
+const Burgir = ({dataBurgir, dataTypeBurgir, dataAdd, mesero, mesa, order, setOrder}) => {
 
   return (
     <div className="menuContainer">
-      <Ordersummary mesero={mesero} mesa={mesa} />
+      <Ordersummary mesero={mesero} mesa={mesa} order={order} setOrder={setOrder} />
       <NavBurgir />
       <div className="nameMenu">
         <img
@@ -37,13 +37,31 @@ const Burgir = ({dataBurgir, dataTypeBurgir, dataAdd, mesero, mesa}) => {
                 multiple
                 required
               >
-                <button class="dropdown-item" type="button">
+                <button class="dropdown-item" type="button" onClick={() => {
+              setOrder([{
+                  nombre: product.name,
+                  precio: product.price,
+                  typeBurgir: dataTypeBurgir[0]
+                }])
+            }}>
                   {dataTypeBurgir[0]}{" "}
                 </button>
-                <button class="dropdown-item" type="button">
+                <button class="dropdown-item" type="button" onClick={() => {
+              setOrder([{
+                  nombre: product.name,
+                  precio: product.price,
+                  typeBurgir: dataTypeBurgir[1]
+                }])
+            }}>
                   {dataTypeBurgir[1]}{" "}
                 </button>
-                <button class="dropdown-item" type="button">
+                <button class="dropdown-item" type="button" onClick={() => {
+              setOrder([{
+                  nombre: product.name,
+                  precio: product.price,
+                  typeBurgir: dataTypeBurgir[2]
+                }])
+            }}>
                   {dataTypeBurgir[2]}{" "}
                 </button>
                 <div className="dropdown-divider"></div>

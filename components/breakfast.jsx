@@ -3,11 +3,11 @@ import "../components/css/menu.css";
 import { NavBreakfast } from "./Nav";
 
 
-const Breakfast = ({dataBreakfast, mesero, mesa}) => {
+const Breakfast = ({dataBreakfast, mesero, mesa, order, setOrder}) => {
 
   return (
     <div className="menuContainer">
-      <Ordersummary mesero={mesero} mesa={mesa}/>
+      <Ordersummary mesero={mesero} mesa={mesa} order={order} />
       <NavBreakfast />
       <div className="nameMenu">
         <img
@@ -22,7 +22,10 @@ const Breakfast = ({dataBreakfast, mesero, mesa}) => {
         {dataBreakfast.map((product) => (
           <div key={product.id} className="cardMenu ">
             <button className="" type="button" onClick={() => {
-
+              setOrder([{
+                  nombre: product.name,
+                  precio: product.price
+                }])
             }}>
               <img src={product.img} className="card-img-top" alt="..." />{" "}
             </button>

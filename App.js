@@ -9,8 +9,11 @@ import React, { useState } from "react";
 import data from './components/data/menu.json'
 
 const App = () => {
-  const [mesero, setMesero] = useState('');
-  const [mesa, setMesa] = useState('');
+  let [mesero, setMesero] = useState('');
+  let [mesa, setMesa] = useState('');
+
+  let [order, setOrder] = useState([]);
+
 
   return (
     <Router>
@@ -23,11 +26,14 @@ const App = () => {
           mesero={mesero}
           setMesa={setMesa}
           mesa={mesa}
+          order={order}
           /> </Route>
           <Route path = "/breakfast"> <Breakfast
           dataBreakfast = {(data.breakfast)}
           mesero={mesero}
           mesa={mesa}
+          order={order}
+          setOrder={setOrder}
           /> </Route>
           <Route path = "/burgir"> <Burgir
           dataBurgir = {(data.burgir)}
@@ -35,12 +41,16 @@ const App = () => {
           dataAdd = {(data.add)}
           mesero={mesero}
           mesa={mesa}
+          order={order}
+          setOrder={setOrder}
           /> </Route>
           <Route path = "/extras"> <Extras
           dataExtras = {(data.extras)}
           dataDrinks = {(data.drinks)}
           mesero={mesero}
           mesa={mesa}
+          order={order}
+          setOrder={setOrder}
           /> </Route>
       </Switch>
     </Router>

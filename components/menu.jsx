@@ -4,10 +4,10 @@ import Mesas from './mesas'
 import Ordersummary from "./orderSummary";
 import "../components/css/menu.css";
 
-export const Menu = ({mesero, setMesa, mesa}) => {
+export const Menu = ({mesero, setMesa, mesa, order}) => {
   return (
     <div className="menuContainer">
-      <Ordersummary mesero={mesero} mesa={mesa}/>
+      <Ordersummary mesero={mesero} mesa={mesa} order={order}/>
       <Nav/>
       <Mesas setMesa={setMesa} />
     </div>

@@ -81,3 +81,17 @@
     justify-content: center;
     flex-wrap: nowrap;
 }
+.productSelect{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.titleProducSelect{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+}
