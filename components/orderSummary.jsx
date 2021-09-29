@@ -12,6 +12,7 @@ return (
     </div>
     <div className="orderContainer"></div>
     <button className="btn-light" > ENVIAR </button>
+    <button className="btn-light" > CANCELAR </button>
     </div>
 );
 };
