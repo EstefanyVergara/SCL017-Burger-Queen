@@ -6,7 +6,7 @@ import data from "./data/menu.json"
 
 export default function NavMenu(props)  {
 
-  const {product, onAdd} = props;
+  const {productAAAA, onAdd} = props;
 
     const [dataActual, setDataActual] = useState(data.startMenu);
     const dataBreakfast = data.breakfast;
