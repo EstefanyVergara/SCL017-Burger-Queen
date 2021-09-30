@@ -1,6 +1,7 @@
 import "../components/css/orderSummary.css";
+import ItemsOrder from "./ItemsOrder";
 
-const Ordersummary = ({mesero, mesa}) => {
+const Ordersummary = ({mesero, mesa, cartItems, onAdd}) => {
 
 return (
     <div className="summaryContainer">
@@ -9,7 +10,7 @@ return (
         <h3 className="text3"> MESERO: {mesero} </h3>
         <h2 className="text2"> N° DE MESA: {mesa} </h2>
     </div>
-    <div className="orderContainer"></div>
+   <ItemsOrder onAdd={onAdd} cartItems={cartItems} />
     <div className='btn-order'>
     <button className="btn btn-light" > ENVIAR </button>
     <button className="btn btn-dark" > CANCELAR </button>
