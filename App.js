@@ -2,17 +2,14 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Identify from "./components/Identify.jsx";
 import User from "./components/user"
 import Menu from "./components/menu"
-import Breakfast from "./components/breakfast";
-import Burgir from "./components/burgir";
-import Extras from "./components/extras";
 import React, { useState } from "react";
-import data from './components/data/menu.json'
 
 const App = () => {
   let [mesero, setMesero] = useState('');
   let [mesa, setMesa] = useState('');
 
   let [order, setOrder] = useState([]);
+
 
 
   return (
@@ -27,30 +24,6 @@ const App = () => {
           setMesa={setMesa}
           mesa={mesa}
           order={order}
-          /> </Route>
-          <Route path = "/breakfast"> <Breakfast
-          dataBreakfast = {(data.breakfast)}
-          mesero={mesero}
-          mesa={mesa}
-          order={order}
-          setOrder={setOrder}
-          /> </Route>
-          <Route path = "/burgir"> <Burgir
-          dataBurgir = {(data.burgir)}
-          dataTypeBurgir = {(data.typeBurgir)}
-          dataAdd = {(data.add)}
-          mesero={mesero}
-          mesa={mesa}
-          order={order}
-          setOrder={setOrder}
-          /> </Route>
-          <Route path = "/extras"> <Extras
-          dataExtras = {(data.extras)}
-          dataDrinks = {(data.drinks)}
-          mesero={mesero}
-          mesa={mesa}
-          order={order}
-          setOrder={setOrder}
           /> </Route>
       </Switch>
     </Router>

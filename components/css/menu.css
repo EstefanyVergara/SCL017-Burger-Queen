@@ -6,15 +6,17 @@
     position: absolute;
     margin: auto;
     top: 20%;
-    left: 10%;
+    left: 95%;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-auto-rows: auto auto;
-    column-gap: 5rem;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto auto auto;
+    grid-row-gap: 1rem;
+    column-gap: 3rem;
 }
+
 .cardMenu{
     display: flex;
-    width: 20rem;
+    width: 15rem;
     margin: 10% 25%;
     background: #c4c4c4;
     border-radius: 20px;
@@ -77,4 +79,9 @@
 
 .nav__item-active{
     background-color: blue;
+}
+
+.textAdd{
+text-align: center;
+margin-top: 5%;
 }
