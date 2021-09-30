@@ -1,4 +1,8 @@
 {
+  "startMenu": [
+    
+  ],
+
   "breakfast": [
     {
       "name": "Sandwich de J/Q",
@@ -23,72 +27,99 @@
       "id": "4",
       "price": 7,
       "img": "https://imgur.com/DjeLasM.png"
+    },
+    {
+      "name": "Batido de fruta",
+      "id": "5",
+      "price": 7,
+      "img": "https://i.imgur.com/5Symz5c.png"
+    },
+    {
+      "name": "Sandwich pollo palta",
+      "id": "6",
+      "price": 7,
+      "img": "https://i.imgur.com/D9cXAKh.png"
     }
   ],
 
   "burgir": [
     {
       "name": "Galáctica",
-      "id": "5",
+      "id": "7",
       "price": 10,
       "img": "https://imgur.com/zgB4fvf.png"
     },
     {
       "name": "Big bang",
-      "id": "6",
+      "id": "8",
       "price": 10,
       "img": "https://imgur.com/5DCNsm5.png"
     },
     {
       "name": "Apolo doble",
-      "id": "7",
+      "id": "9",
       "price": 15,
       "img": "https://imgur.com/U8Y5wpj.png"
     },
     {
       "name": "Astro Doble",
-      "id": "8",
+      "id": "10",
       "price": 15,
       "img": "https://imgur.com/JPK4bfj.png"
+    },
+    {
+      "name": "Cambia tu proteina a vegetal",
+      "id": "11",
+      "price": 4,
+      "img": "https://i.imgur.com/bCGh2WE.png"
+    },
+    {
+      "name": "Cambia tu proteina a pollo",
+      "id": "12",
+      "price": 5,
+      "img": "https://i.imgur.com/Ca6C0Xg.png"
     }
   ],
-
-  "typeBurgir": ["Vacuno", "Pollo", "Vegetariana"],
-  "add": [
-    { "name": "Queso", "price": 1, "id": "9" },
-    { "name": "Huevo", "price": 1, "id": "10" }
-  ],
+  
 
   "extras": [
     {
       "name": "Papas E.T",
-      "id": "11",
+      "id": "13",
       "price": 5,
       "img": "https://imgur.com/c7o1G0M.png"
     },
     {
       "name": "Onion Space",
-      "id": "12",
+      "id": "14",
       "price": 5,
       "img": "https://imgur.com/9As9vhZ.png"
-    }
-  ],
-
-  "drinks":[
+    },
     {
       "name": "Agua 500 ML",
-      "id": "13",
-      "price": 5 ,
-      "size" : ["Agua 750 ML + $7"],
-      "img" : "https://imgur.com/JH1sHd2.png"
+      "id": "15",
+      "price": 5,
+      "size": ["Agua 750 ML + $7"],
+      "img": "https://imgur.com/JH1sHd2.png"
     },
     {
       "name": "Bebida 500 ML",
-      "id": "14",
-      "price": 7 ,
-      "size" : ["Bebida 750 ML + $10"],
-      "img" : "https://imgur.com/sz3k3Yi.png"
+      "id": "16",
+      "price": 7,
+      "size": ["Bebida 750 ML + $10"],
+      "img": "https://imgur.com/sz3k3Yi.png"
+    },
+    {
+      "name": "Extra-Bacon",
+      "id": "17",
+      "price": 1,
+      "img": "https://i.imgur.com/73qG972.png"
+    },
+    {
+      "name": "Extra-Queso",
+      "id": "18",
+      "price": 1,
+      "img": "https://i.imgur.com/32UNrzB.png"
     }
   ]
-  
 }
