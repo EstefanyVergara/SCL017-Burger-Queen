@@ -85,7 +85,7 @@
     flex-direction: row;
     justify-content: flex-end;
 }
-.btnRemoveAll{
+.btnRemoveItem{
     background: #C4C4C4;
     border: 0px;
 }
