@@ -80,19 +80,6 @@
 .nav__item-active{
     background-color: blue;
 }
-
-.textAdd{
-text-align: center;
-margin-top: 5%;
-}
-.selectItemOrder{
-    display: flex;
-    flex-direction: row;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
 .rowPrice{
     display: flex;
     flex-direction: row;
@@ -109,18 +96,4 @@ margin-top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-.tittleitems{
-    font-weight: bold;
-    size: 20%;
-}
-.nameItem{
-    width: 20%;
-}
-.qtyOrder{
-    display: flex;
-    flex-direction: row;
-    width: 30%;
-    justify-content: center;
-    align-items: center;
 }

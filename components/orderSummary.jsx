@@ -7,8 +7,8 @@ return (
     <div className="summaryContainer">
     <h1 className="textResume"> RESUMEN DEL PEDIDO </h1>
     <div className="tableNumContainer">
-        <h3 className="text3"> MESERO: {mesero} </h3>
-        <h2 className="text2"> N° DE MESA: {mesa} </h2>
+        <h2 className="textWaiterTable"> MESERO:  <h3 className='textWaiterTable2'>&nbsp;&nbsp;{mesero}</h3> </h2>
+        <h2 className="textWaiterTable">MESA:  <h3 className='textWaiterTable2'>&nbsp;&nbsp;{mesa} </h3> </h2>
     </div>
    <ItemsOrder onAdd={onAdd} cartItems={cartItems} onRemove={onRemove} removeItems={removeItems} />
     <div className='btn-order'>

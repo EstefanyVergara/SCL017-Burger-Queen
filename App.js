@@ -8,10 +8,6 @@ const App = () => {
   let [mesero, setMesero] = useState('');
   let [mesa, setMesa] = useState('');
 
-  let [order, setOrder] = useState([]);
-
-
-
   return (
     <Router>
       <Switch>
@@ -23,7 +19,6 @@ const App = () => {
           mesero={mesero}
           setMesa={setMesa}
           mesa={mesa}
-          order={order}
           /> </Route>
       </Switch>
     </Router>

@@ -43,7 +43,7 @@ function Menu({ mesero, setMesa, mesa }) {
   return (
     <div className="menuContainer">
       <Ordersummary onAdd= {onAdd} onRemove={onRemove} removeItems={removeItems} cartItems={cartItems} mesero={mesero} mesa={mesa} />
-      <NavMenu onAdd= {onAdd} products={products} />
+      <NavMenu onAdd= {onAdd} products={products} mesa={mesa} />
       <Mesas setMesa={setMesa} />
     </div>
   );

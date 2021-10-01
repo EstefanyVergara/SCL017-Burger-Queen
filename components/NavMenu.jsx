@@ -6,21 +6,34 @@ import data from "./data/menu.json"
 
 export default function NavMenu(props)  {
 
-  const {productAAAA, onAdd} = props;
+  const {product, onAdd, mesa} = props;
+
 
     const [dataActual, setDataActual] = useState(data.startMenu);
     const dataBreakfast = data.breakfast;
   
     const showBurgir = () => {
-      setDataActual(data.burgir);
+      if(mesa.length > 0){
+        setDataActual(data.burgir);
+      }else {
+        alert('Debe ingresar número de mesa');
+      }
     };
   
     const showBreakfast = () => {
-      setDataActual(dataBreakfast);
+      if(mesa.length > 0){
+        setDataActual(dataBreakfast);
+      }else {
+        alert('Debe ingresar número de mesa');
+      }
     };
 
     const showExtras = () => {
-      setDataActual(data.extras);
+      if(mesa.length > 0){
+        setDataActual(data.extras);
+      } else {
+        alert('Debe ingresar número de mesa');
+      }
     };
 
   return (

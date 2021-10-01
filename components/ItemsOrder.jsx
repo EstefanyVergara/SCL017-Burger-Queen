@@ -14,6 +14,7 @@ export default function ItemsOrder(props) {
   <div className="orderContainer">
     <div>
  {cartItems.length === 0 && <h5 className = "textAdd">Agrega productos al resumen del pedido </h5>}</div>
+ <div className='orderList'>
  <div>
     {cartItems.length >= 1 &&
         <div className='titleOrderItems'> 
@@ -26,12 +27,12 @@ export default function ItemsOrder(props) {
 <div key={item.id} className="selectItemOrder">
   <div className='nameItem'>{item.name} </div>
   <div className='qtyOrder'>
-    <button onClick={()=>onAdd(item)} className="add">+</button>
-    <div> {item.qty} </div>
-    <button onClick={()=>onRemove(item)} className="remove">-</button>
+    <button onClick={()=>onAdd(item)} className="btnAR add"> + </button>
+    <div className='textQuantity'> {item.qty} </div>
+    <button onClick={()=>onRemove(item)} className="btnAR remove"> - </button>
   </div>
     <div className='quantyPriceItem'>
-    {item.qty} x ${item.price}
+     ${item.price}
     </div>
     <button  onClick={()=>removeItems(item)} className= "btnRemoveAll">
         <img className='TrashIcon'
@@ -40,34 +41,38 @@ export default function ItemsOrder(props) {
     </button>
 </div>
 
+
   ))}
+  </div>
+  <div className='containerTotalBill'>
   {cartItems.length !== 0 && (
     <>
     <hr></hr>
     <div className='rowPrice'>
-      <div className='col-2'> Total neto </div>
-      <div className='col-1 text-right'>$ {itemsPriceNeto.toFixed(0)} </div>
+      <div className='textBill col-3'> Total neto </div>
+      <div className='textBill col-1 text-right'>$ {itemsPriceNeto.toFixed(0)} </div>
     </div>
     <div className='rowPrice'>
-      <div className='col-2'> IVA </div>
-      <div className='col-1 text-right'>$ {taxPrice.toFixed(0)} </div>
+      <div className='textBill col-3'> IVA </div>
+      <div className='textBill col-1 text-right'>$ {taxPrice.toFixed(0)} </div>
     </div>
     <div className='rowPrice'>
-      <div className='col-2'> <strong> Total cuenta </strong> </div>
-      <div className='col-1 text-right'><strong>$ {itemsPrice} </strong></div>
+      <div className='textBill col-3'> <strong> Total cuenta </strong> </div>
+      <div className='textBill col-1 text-right'><strong>$ {itemsPrice} </strong></div>
     </div>
     <hr></hr>
     <div className='rowPrice'>
-      <div className='col-2'> Propina sugerida </div>
-      <div className='col-1 text-right'>$ {suggestedTip.toFixed(0)} </div>
+      <div className='textBill col-3'> Propina sugerida </div>
+      <div className='textBill col-1 text-right'>$ {suggestedTip.toFixed(0)} </div>
     </div>
     <div className='rowPrice'>
-      <div className='col-2'> Total + Propina </div>
-      <div className='col-1 text-right'>$ {itemsPriceTotal.toFixed(0)} </div>
+      <div className='textBill col-3'> Total + Propina </div>
+      <div className='textBill col-1 text-right'>$ {itemsPriceTotal.toFixed(0)} </div>
     </div>
     
     </>
   )}
+  </div>
 </div>
   </>
   );
