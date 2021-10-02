@@ -5,39 +5,39 @@
 
   "breakfast": [
     {
-      "name": "Sandwich de J/Q",
+      "name": "Sandwich J/Q",
       "id": "1",
-      "price": 10,
+      "price": 18,
       "img": "https://imgur.com/7Uv1Ihy.png"
     },
     {
       "name": "Café americano",
       "id": "2",
-      "price": 5,
+      "price": 10,
       "img": "https://imgur.com/qdo2Olt.png"
     },
     {
       "name": "Café late",
       "id": "3",
-      "price": 7,
+      "price": 11,
       "img": "https://imgur.com/2Gb6vjN.png"
     },
     {
       "name": "Jugo natural",
       "id": "4",
-      "price": 7,
+      "price": 15,
       "img": "https://imgur.com/DjeLasM.png"
     },
     {
       "name": "Batido de fruta",
       "id": "5",
-      "price": 7,
+      "price": 10,
       "img": "https://i.imgur.com/5Symz5c.png"
     },
     {
       "name": "Sandwich pollo palta",
       "id": "6",
-      "price": 7,
+      "price": 18,
       "img": "https://i.imgur.com/D9cXAKh.png"
     }
   ],
@@ -46,37 +46,37 @@
     {
       "name": "Galáctica",
       "id": "7",
-      "price": 10,
+      "price": 25,
       "img": "https://imgur.com/zgB4fvf.png"
     },
     {
       "name": "Big bang",
       "id": "8",
-      "price": 10,
+      "price": 25,
       "img": "https://imgur.com/5DCNsm5.png"
     },
     {
       "name": "Apolo doble",
       "id": "9",
-      "price": 15,
+      "price": 30,
       "img": "https://imgur.com/U8Y5wpj.png"
     },
     {
       "name": "Astro Doble",
       "id": "10",
-      "price": 15,
+      "price": 30,
       "img": "https://imgur.com/JPK4bfj.png"
     },
     {
       "name": "Cambia tu proteina a vegetal",
       "id": "11",
-      "price": 4,
+      "price": 10,
       "img": "https://i.imgur.com/bCGh2WE.png"
     },
     {
       "name": "Cambia tu proteina a pollo",
       "id": "12",
-      "price": 5,
+      "price": 10,
       "img": "https://i.imgur.com/Ca6C0Xg.png"
     }
   ],
@@ -86,39 +86,39 @@
     {
       "name": "Papas E.T",
       "id": "13",
-      "price": 5,
+      "price": 15,
       "img": "https://imgur.com/c7o1G0M.png"
     },
     {
       "name": "Onion Space",
       "id": "14",
-      "price": 5,
+      "price": 15,
       "img": "https://imgur.com/9As9vhZ.png"
     },
     {
       "name": "Agua 500 ML",
       "id": "15",
-      "price": 5,
+      "price": 21,
       "size": ["Agua 750 ML + $7"],
       "img": "https://imgur.com/JH1sHd2.png"
     },
     {
       "name": "Bebida 500 ML",
       "id": "16",
-      "price": 7,
+      "price": 21,
       "size": ["Bebida 750 ML + $10"],
       "img": "https://imgur.com/sz3k3Yi.png"
     },
     {
       "name": "Extra-Bacon",
       "id": "17",
-      "price": 1,
+      "price": 15,
       "img": "https://i.imgur.com/73qG972.png"
     },
     {
       "name": "Extra-Queso",
       "id": "18",
-      "price": 1,
+      "price": 15,
       "img": "https://i.imgur.com/32UNrzB.png"
     }
   ]

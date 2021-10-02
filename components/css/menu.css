@@ -84,6 +84,8 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    flex-wrap: wrap;
+    font-size: 1em;
 }
 .btnRemoveAll{
     background: #C4C4C4;
