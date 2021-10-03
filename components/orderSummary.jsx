@@ -19,28 +19,28 @@ return (
     </div>
 
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">¿Confirmas el pedido?</h5>
+<div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="exampleModalLabel">¿Confirmas el pedido?</h5>
       </div>
-      <div class="modal-body">
+      <div className="modal-body">
       {cartItems.map((item) => (
 <div key={item.id}>
   <div className='itemsModal'> {item.name}  | {item.qty} </div>
 </div>
   ))}
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">NO</button>
-        <button type="button" class="btn btn-light">SI</button>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-dark" data-bs-dismiss="modal">NO</button>
+        <button type="button" className="btn btn-light"data-bs-toggle="modal" data-bs-target="#exampleModal">SI</button>
       </div>
     </div>
   </div>
 </div>
     
-    </>
+</>
 
 
 
