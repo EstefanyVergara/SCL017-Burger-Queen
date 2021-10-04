@@ -184,60 +184,6 @@ font-size: 1.5rem;
 .hr {
 margin: 0.1rem;
 }
-.modal {
-position: fixed;
-top: 8rem;
-z-index: 1055;
-display: none;
-width: 100%;
-height: 100%;
-overflow-x: hidden;
-overflow-y: auto;
-outline: 0;
-}
-.modal-title {
-margin-bottom: 0;
-line-height: 1.5;
-font-size: 2rem;
-}
 
-.modal.show .modal-dialog {
-transform: none;
-margin-top: 16rem;
-}
 
-.modal-footer {
-display: flex;
-flex-wrap: nowrap;
-align-items: flex-end;
-justify-content: space-evenly;
-padding: -0.25rem;
-border-top: 1px solid #dee2e6;
-border-bottom-right-radius: calc(0.3rem - 1px);
-border-bottom-left-radius: calc(0.3rem - 1px);
-}
 
-.modal-content {
-position: relative;
-display: flex;
-flex-direction: column;
-width: 100%;
-background-color: #1f2027;
-background-clip: padding-box;
-border: 4px solid rgb(255 255 255 / 100%);
-border-radius: 1.3rem;
-outline: 0;
-align-items: stretch;
-flex-wrap: wrap;
-color: #ffff;
-align-content: center;
-justify-content: space-around;
-}
-
-.modal-body {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-align-items: stretch;
-font-size: 2em;
-}
