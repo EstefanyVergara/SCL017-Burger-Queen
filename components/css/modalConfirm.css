@@ -1,0 +1,78 @@
+
+.modal-dialog{
+    max-width: 250%;
+    margin: 2% 20%;
+}
+.modal-content{
+    background-color: #1F2027;
+    border: 7px solid #E9EAEB;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 250%;
+}
+.modal-title{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-left: 35%;
+}
+.btn-close{
+    font-size: 2rem;
+}
+.titleConfirm{
+    color: rgba(188, 111, 241, 1);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ListItemConfirm{
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: white;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 36%;
+}
+.nameItemConfirm{
+    margin-left: 27%;
+}
+.itemTextConfirm{
+    margin-left: 20%;
+}
+.modal-footer{
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.btn-si{
+    width: 10%;
+    padding: 1% 2%;
+    background: #BC6FF1;
+    border-radius: 19px;    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: white;
+}
+.btn-no{
+    width: 10%;
+    padding: 1% 2%;
+    background: #E9EAEB;
+    border-radius: 19px;    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: black;
+    margin-left: 8%;
+}

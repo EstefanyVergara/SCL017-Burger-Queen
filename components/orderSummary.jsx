@@ -1,7 +1,17 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import "../components/css/orderSummary.css";
+import "../components/css/modalConfirm.css";
 import ItemsOrder from "./ItemsOrder";
 
-const Ordersummary = ({mesero, mesa, cartItems, onAdd, onRemove, removeItems}) => {
+const Ordersummary = ({mesero, mesa, cartItems, onAdd, onRemove, removeItems, setCartItems}) => {
+console.log(cartItems);
+const removeAllItems = () => {
+    setCartItems([]);
+    }
+
+const sendOrder = () => {
+        
+    }
 
 return (
     <>
@@ -13,8 +23,11 @@ return (
     </div>
     <ItemsOrder onAdd={onAdd} cartItems={cartItems} onRemove={onRemove} removeItems={removeItems} />
     <div className='btn-order'>
-    <button className="btn btn-dark" > CANCELAR </button>
+    <button className="btn btn-dark" onClick={()=>removeAllItems()} > CANCELAR </button>
     <a className="btn btn-light" data-bs-toggle="modal" href="#exampleModalToggle" role="button">ENVIAR</a>
+    {/* <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" className="btn btn-light" onClick={()=>sendOrder()}> ENVIAR </button> 
+
+             {/* Modal para confirmar pedido  */} 
     </div>
     </div>
 
@@ -22,18 +35,29 @@ return (
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalToggleLabel">CONFIRMAS EL PEDIDO?</h5>
+        <h5 class="modal-title" id="exampleModalToggleLabel">¿ Confirmas el pedido ?</h5>
       </div>
       <div class="modal-body">
-        RESUMEN DEL PEDIDO
-      </div>
+                            <div className="titleConfirm">
+                                <div> Cantidad </div>
+                                <div className="itemTextConfirm"> Item </div>
+                            </div>
+                                
+                            {cartItems.map((item) => (
+                                <div key={item.id} className="ListItemConfirm">
+                                        <div className='textQuantityConfirm'> {item.qty} </div>
+                                        <div className='nameItemConfirm'>{item.name} </div>
+                                </div>
+                            ))}
+                        </div>
       <div class="modal-footer">
       <button type="button" className="btn btn-dark" data-bs-dismiss="modal">NO</button>
-        <button class="btn btn-light" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">SI</button>
+        <button class="btn btn-light" data-bs-target="#exampleModalToggle2" /* onClick={()=>savingDataFirebase()} */ data-bs-toggle="modal" data-bs-dismiss="modal">SI</button>
       </div>
     </div>
   </div>
 </div>
+
 <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -48,31 +72,6 @@ return (
     </div>
   </div>
 </div>
-
-
-
-
-{/* <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div className="modal-dialog">
-    <div className="modal-content">
-      <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">¿Confirmas el pedido?</h5>
-      </div>
-      <div className="modal-body">
-      {cartItems.map((item) => (
-<div key={item.id}>
-  <div className='itemsModal'> {item.name}  | {item.qty} </div>
-</div>
-  ))}
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-dark" data-bs-dismiss="modal">NO</button>
-        <button type="button" className="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">SI</button>
-
-      </div>
-    </div>
-  </div>
-</div> */}
 
 </>
 

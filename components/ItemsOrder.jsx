@@ -29,7 +29,7 @@ export default function ItemsOrder(props) {
     <div className='quantyPriceItem'>
      ${item.price}
     </div>
-    <button  onClick={()=>removeItems(item)} className= "btnRemoveAll">
+    <button  onClick={()=>removeItems(item)} className= "btnRemoveItem">
         <img className='TrashIcon'
            src={"https://imgur.com/BBuJ0lm.png"}
            alt='trash'/>

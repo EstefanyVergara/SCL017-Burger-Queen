@@ -76,114 +76,113 @@ font-size: 36px;
 text-decoration-color: #ffffff;
 }
 
-.btn-order {
-display: flex;
-justify-content: center;
-flex-wrap: nowrap;
+.btn-order{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
-.productSelect {
-display: flex;
-flex-direction: row;
-align-content: flex-start;
-justify-content: space-around;
-align-items: flex-start;
+.productSelect{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
 }
-.titleProducSelect {
-display: flex;
-flex-direction: row;
-align-content: flex-start;
-justify-content: space-around;
-align-items: flex-start;
-align-items: center;
+.titleProducSelect{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-items: center
 }
-.textWaiterTable {
-display: flex;
-font-family: "Roboto", sans-serif;
-font-style: normal;
-font-weight: bold;
-width: auto;
-flex-direction: row;
-align-items: baseline;
+.textWaiterTable{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    width: auto;
+    flex-direction: row;
+    align-items: baseline;
 }
-.textWaiterTable2 {
-font-family: "Roboto", sans-serif;
-font-style: normal;
-font-size: 2rem;
-width: auto;
+.textWaiterTable2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+    width: auto;
 }
-.textAdd {
-font-family: "Roboto", sans-serif;
-font-style: normal;
-font-size: 2rem;
-color: #787373;
-text-align: center;
-margin-top: 5%;
+.textAdd{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+    color: #787373;
+    text-align: center;
+    margin-top: 5%;
 }
-.tittleitems {
-font-family: "Roboto", sans-serif;
-font-style: normal;
-font-size: 1.8rem;
-font-weight: bold;
-size: 20%;
+.tittleitems{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 1.8rem;
+    font-weight: bold;
+    size: 20%;
 }
-.selectItemOrder {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-margin: 2%;
+.selectItemOrder{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-.nameItem {
-font-family: "Roboto", sans-serif;
-font-size: 1.5rem;
-text-align: justify;
-width: 28%;
+.nameItem{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 35%;
 }
-.qtyOrder {
-display: flex;
-flex-direction: row;
-width: 19%;
-justify-content: space-between;
-align-items: center;
+.qtyOrder{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.btnAR {
-font-family: "Roboto", sans-serif;
-font-style: normal;
-font-size: 1.8rem;
-font-weight: bold;
-color: white;
-background: black;
-width: 28%;
-margin-top: 4%;
+.btnAR{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    background: black;
+    width: 28%;
+    margin-top: 4%;
 }
-.textQuantity {
-font-family: "Roboto", sans-serif;
-font-style: normal;
-font-size: 1.5rem;
-font-weight: bold;
-color: black;
-padding: 2%;
+.textQuantity{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    padding: 2%;
 }
-.orderList {
-overflow: auto;
-height: 26rem;
+.orderList{
+    overflow:auto;
+    height: 26rem;
 }
-.containerTotalBill {
-position: fixed;
-width: 35%;
+.containerTotalBill{
+    position: fixed;
+    width: 35%;
 }
-.quantyPriceItem {
-font-family: "Roboto", sans-serif;
-font-style: normal;
-font-size: 1.5rem;
+.quantyPriceItem{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
 }
-.textBill {
-font-family: "Roboto", sans-serif;
-font-style: normal;
-font-size: 1.5rem;
+.textBill{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 1.4rem;
 }
 .hr {
-margin: 0.1rem;
+    margin: 0rem;
 }
-
-
-

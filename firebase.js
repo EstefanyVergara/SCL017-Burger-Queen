@@ -21,7 +21,7 @@ export {firebase};
 const db = firebase.firestore();
 
 
-export function addMesero(state) {
+export function addMesero() {
     db.collection('Orden').add({
         mesero: 'Camila'
       });
