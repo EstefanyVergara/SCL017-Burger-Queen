@@ -1,6 +1,6 @@
 .menuContainer{
     background-color: rgba(42, 46, 61, 1);
-    height: 100vh;
+    height: 120vh;
 }
 .Menu{
     position: absolute;
@@ -100,4 +100,25 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+@media screen and (min-width: 1025px){
+    .menuContainer{
+        background-color: rgba(42, 46, 61, 1);
+        height: 140vh;
+    }
+    .Menu{
+        position: absolute;
+        margin: auto;
+        top: 3%;
+        left: 90%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-auto-rows: auto auto auto auto;
+        grid-column-gap: 2rem;
+        column-gap: 2rem;
+    }
+    .navigation{
+        position: absolute;
+        height: 140vh;
+    }
 }

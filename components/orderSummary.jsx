@@ -5,10 +5,12 @@ import ItemsOrder from "./ItemsOrder";
 import { savingDataFirebase } from '../firebase'
 
 
-const Ordersummary = ({mesero, mesa, cartItems, onAdd, onRemove, removeItems, setCartItems}) => {
+const Ordersummary = ({mesero, mesa, cartItems, onAdd, onRemove, removeItems, setCartItems, resetOrder}) => {
 const removeAllItems = () => {
     setCartItems([]);
     }
+
+
 
 return (
     <>
@@ -62,10 +64,11 @@ return (
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" onClick={() => resetOrder()} aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        SOLICITUD ENVIADA A COCINA
+      <p className='titleModal2'>SOLICITUD ENVIADA A COCINA</p>
+        <center> <img src={'https://imgur.com/qDmiCm1.png'} alt="OK" /> </center>
       </div>
       <div class="modal-footer">
       </div>

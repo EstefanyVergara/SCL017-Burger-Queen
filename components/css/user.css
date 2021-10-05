@@ -33,7 +33,6 @@
 .card-text{
   width: 80%;
   padding: 1em;
-  /* position: sticky; */
   color: #fff;
   text-align: center;
 }
@@ -41,4 +40,25 @@ a{
   text-decoration: none;
 }
 
-/* @media screen and (min-width: 1024px) */
+@media screen and (min-width: 1025px){
+  .containerUser{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding-top: 2%;
+  }
+  .card{
+    width: 40%;
+    position: relative;
+    overflow: hidden;
+    background: none;
+    margin: 3%;
+  }
+  .card-text{
+    width: 100%;
+    padding: 0.5em;
+    color: #fff;
+    text-align: center;
+  }
+}

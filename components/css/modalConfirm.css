@@ -76,3 +76,16 @@
     color: black;
     margin-left: 8%;
 }
+.titleModal2{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+@media screen and (min-width: 1025px){
+    .modal-dialog {
+        max-width: 200%;
+        margin: 2% 10%;
+    }
+}
