@@ -43,8 +43,8 @@ export default function ItemsOrder(props) {
     <>
     <hr></hr>
     <div className='rowPrice'>
-      <div className='textBill col-3'> <b> Total cuenta </b> </div>
-      <div className='textBill col-1 text-right'><strong>$ {itemsPrice} </strong></div>
+      <div className='textBill'> <b className='textTotalOrder'> Total cuenta </b> </div>
+      <div className='textBill text-right'><strong>$ {itemsPrice} </strong></div>
     </div>
     </>
   )}

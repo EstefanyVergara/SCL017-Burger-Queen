@@ -55,7 +55,8 @@ function Menu({ mesero, setMesa, mesa }) {
       products={products} 
       mesa={mesa} />
       <Mesas 
-      setMesa={setMesa} />
+      setMesa={setMesa}
+      mesa={mesa} />
     </div>
   );
 }

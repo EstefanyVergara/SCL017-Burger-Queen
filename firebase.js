@@ -21,8 +21,10 @@ export {firebase};
 const db = firebase.firestore();
 
 
-export function addMesero() {
-    db.collection('Orden').add({
-        mesero: 'Camila'
+export function savingDataFirebase(cartItems,mesero,mesa) {
+    db.collection('order').add({
+        pedido: cartItems,
+        mesero: mesero,
+        mesa: mesa,
       });
 }

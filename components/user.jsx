@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const User = ({setMesero}) => {
   return (
     <Fragment>
-      <div className="container">
+      <div className="containerUser">
 
-        <div className="row">
+        <div className="rowUsers">
           <div className="card">
             <Link to={{ pathname: "/menu", state: 'Camila Zuñiga'}} onClick={() => setMesero('Camila Zuñiga')}>
               <img src={'https://imgur.com/3b9N1bL.png'} alt="camila" />
@@ -27,7 +27,7 @@ const User = ({setMesero}) => {
           </div>
         </div>
 
-        <div className="row">
+        <div className="rowUsers">
           <div className="card">
             <Link to={{ pathname: "/menu", state: 'Eva Muñoz' }} onClick={() => setMesero('Eva Muñoz')}>
               <img src={'https://imgur.com/kCeSqgD.png'} alt="eva" />
@@ -48,7 +48,7 @@ const User = ({setMesero}) => {
 
         </div>
 
-        <div className="row">
+        <div className="rowUsers">
           <div className="card">
             <Link to={{ pathname: "/menu", state: 'Victor Acuña' }} onClick={() => setMesero('Victor Acuña')} >
               <img src={'https://imgur.com/t9TEfBW.png'} alt="Victor" />
@@ -67,6 +67,7 @@ const User = ({setMesero}) => {
             </Link>
           </div>
         </div>
+
       </div>
     </Fragment>
   );
