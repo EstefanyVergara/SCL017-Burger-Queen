@@ -25,9 +25,6 @@ return (
     <div className='btn-order'>
     <button className="btn btn-dark" onClick={()=>removeAllItems()} > CANCELAR </button>
     <a className="btn btn-light" data-bs-toggle="modal" href="#exampleModalToggle" role="button">ENVIAR</a>
-    {/* <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" className="btn btn-light" onClick={()=>sendOrder()}> ENVIAR </button> 
-
-             {/* Modal para confirmar pedido  */} 
     </div>
     </div>
 
@@ -35,21 +32,21 @@ return (
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalToggleLabel">¿ Confirmas el pedido ?</h5>
+        <h5 class="modal-title" id="exampleModalToggleLabel">¿Confirmas el pedido?</h5>
       </div>
       <div class="modal-body">
-                            <div className="titleConfirm">
-                                <div> Cantidad </div>
-                                <div className="itemTextConfirm"> Item </div>
-                            </div>
-                                
-                            {cartItems.map((item) => (
-                                <div key={item.id} className="ListItemConfirm">
-                                        <div className='textQuantityConfirm'> {item.qty} </div>
-                                        <div className='nameItemConfirm'>{item.name} </div>
-                                </div>
-                            ))}
-                        </div>
+          <div className="titleConfirm">
+              <div> Cantidad </div>
+              <div className="itemTextConfirm"> Item </div>
+          </div>
+              
+          {cartItems.map((item) => (
+              <div key={item.id} className="ListItemConfirm">
+                      <div className='textQuantityConfirm'> {item.qty} </div>
+                      <div className='nameItemConfirm'>{item.name} </div>
+              </div>
+          ))}
+      </div>
       <div class="modal-footer">
       <button type="button" className="btn btn-dark" data-bs-dismiss="modal">NO</button>
         <button class="btn btn-light" data-bs-target="#exampleModalToggle2" /* onClick={()=>savingDataFirebase()} */ data-bs-toggle="modal" data-bs-dismiss="modal">SI</button>
@@ -65,9 +62,7 @@ return (
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        SOLICITUD ENVIADA A COCINA
-      </div>
-      <div class="modal-footer">
+        <h5>SOLICITUD ENVIADA A COCINA </h5>
       </div>
     </div>
   </div>
