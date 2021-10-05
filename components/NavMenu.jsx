@@ -1,12 +1,11 @@
 import React from "react";
 import "../components/css/nav.css";
-import { useState } from "react";
 import data from "./data/menu.json";
 
 export default function NavMenu(props) {
-  const { onAdd, mesa } = props;
+  const { onAdd, mesa, setDataActual, dataActual } = props;
 
-  const [dataActual, setDataActual] = useState(data.startMenu);
+  
   const dataBreakfast = data.breakfast;
 
   const showBurgir = () => {

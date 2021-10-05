@@ -33,12 +33,20 @@ function Menu({ mesero, setMesa, mesa }) {
     );
     }
   }
+ 
   const removeItems = (product) => {
     const exist = cartItems.find((x) => x.id === product.id)
     if(exist.qty) {
       setCartItems(cartItems.filter((x) => x.id !== product.id))
     } 
   }
+  const [dataActual, setDataActual] = useState(data.startMenu);
+
+  const resetOrder = () => {
+    setCartItems([]);
+    setMesa('');
+    setDataActual(data.startMenu)
+    } 
 
   return (
     <div className="menuContainer">
@@ -49,11 +57,14 @@ function Menu({ mesero, setMesa, mesa }) {
       setCartItems={setCartItems}
       cartItems={cartItems} 
       mesero={mesero} 
-      mesa={mesa} />
+      mesa={mesa}
+      resetOrder={resetOrder} />
       <NavMenu 
       onAdd={onAdd} 
       products={products} 
-      mesa={mesa} />
+      mesa={mesa}
+      dataActual={dataActual}
+      setDataActual={setDataActual} />
       <Mesas 
       setMesa={setMesa}
       mesa={mesa} />
