@@ -2,11 +2,11 @@
 
 .container {
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  height: 80vh;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  padding-top: 15%;
 }
 
 .logo {
@@ -15,7 +15,6 @@
   animation: float 4s infinite;
   cursor: pointer;
   width: 50%;
-
   transition: width 0.5s, heigth 0.5s;
 }
 @keyframes float {
@@ -32,7 +31,6 @@
 
 .selectWorker {
   font-family: "Montserrat", sans-serif;
-  padding: 0em;
   display: flex;
   text-align: center;
   align-items: center;
@@ -43,12 +41,11 @@
 .text1 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 2em;
   color: white;
 }
 
 .btn-primary {
-  width: 80%;
+  width: 100%;
   font-size: 3em;
   background: #7c40ff;
   margin: 5%;
@@ -67,7 +64,7 @@
 
 
 .btn-secondary {
-  width: 80%;
+  width: 100%;
   font-size: 3em;
   background: #c4c4c4;
   margin: 5%;

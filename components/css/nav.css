@@ -1,5 +1,5 @@
 .navigation {
-  width: 8rem;
+  width: 5rem;
   height: 100vh;
   background-color: #1f2027;
   position: fixed;
@@ -18,7 +18,7 @@
 }
 
 .navIcon {
-  width: 5em;
+  width: 3.5em;
 }
 
 .navIcon:hover {
@@ -33,5 +33,4 @@
   background: none;
   text-decoration: none;
   border: none;
-  
 }

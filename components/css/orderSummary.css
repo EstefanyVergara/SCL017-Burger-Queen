@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 
 .summaryContainer {
-width: 40%;
-height: 85%;
+width: 50%;
+height: 95%;
 position: absolute;
-top: 7%;
+top: 3%;
 right: 1.5%;
 background-color: rgba(255, 255, 255, 0.9);
 box-shadow: 11px 11px 0px -1px rgba(0, 0, 0, 0.58);
@@ -19,7 +19,7 @@ align-items: center;
 font-family: "Roboto", sans-serif;
 color: black;
 font-style: normal;
-font-size: 250%;
+font-size: 170%;
 line-height: 400%;
 display: flex;
 text-align: center;
@@ -34,26 +34,25 @@ flex-direction: row;
 background: #c4c4c4;
 border-radius: 13px;
 width: 90%;
-padding: 2% 1%;
+padding-top: 3%;
 }
 .orderContainer {
 position: relative;
 margin: 2%;
 width: 90%;
-height: 90%;
+height: 60%;
 background: #c4c4c4;
 border-radius: 22px;
 }
 .btn-light {
 width: 100%;
-font-size: 3em;
 background: #bc6ff1;
 border-radius: 7px;
 margin: 8%;
 border-color: #7c40ff;
 font-family: Roboto;
 font-style: normal;
-font-size: 36px;
+font-size: 26px;
 text-decoration-color: #ffffff;
 color: #ffffff;
 }
@@ -66,13 +65,12 @@ cursor: pointer;
 
 .btn-dark {
 width: 100%;
-font-size: 3em;
 background: #2a2e3d;
 border-radius: 7px;
 margin: 8%;
 font-family: Roboto;
 font-style: normal;
-font-size: 36px;
+font-size: 26px;
 text-decoration-color: #ffffff;
 }
 
@@ -105,11 +103,15 @@ text-decoration-color: #ffffff;
     flex-direction: row;
     align-items: baseline;
 }
+.textMesero, .textMesa{
+    font-size: 1.4rem;
+}
 .textWaiterTable2{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 1.3rem;
     width: auto;
+    padding-left: 0%;
 }
 .textAdd{
     font-family: 'Roboto', sans-serif;
@@ -167,7 +169,8 @@ text-decoration-color: #ffffff;
 }
 .orderList{
     overflow:auto;
-    height: 26rem;
+    height: 23rem;
+    overflow-x: auto;
 }
 .containerTotalBill{
     position: fixed;
@@ -181,8 +184,15 @@ text-decoration-color: #ffffff;
 .textBill{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 .hr {
     margin: 0rem;
+}
+.textTotalOrder{
+    font-size: 1.7rem;;
+}
+.containerLisItem{
+    overflow: auto;
+    height: 80%;
 }
