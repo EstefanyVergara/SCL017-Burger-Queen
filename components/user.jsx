@@ -9,7 +9,7 @@ const User = ({setMesero}) => {
 
         <div className="rowUsers">
           <div className="card">
-            <Link to={{ pathname: "/menu", state: 'Camila Zuñiga'}} onClick={() => setMesero('Camila Zuñiga')}>
+            <Link to={{ pathname: "/menu"}} onClick={() => setMesero('Camila Zuñiga')}>
               <img src={'https://imgur.com/3b9N1bL.png'} alt="camila" />
               <div className="card-text">
                 <h3>Camila Zuñiga</h3>
@@ -18,7 +18,7 @@ const User = ({setMesero}) => {
           </div>
 
           <div className="card">
-            <Link to={{ pathname: "/menu", state: 'Rodrigo Gutierrez' }} onClick={() => setMesero('Rodrigo Gutierrez')}>
+            <Link to={{ pathname: "/menu"}} onClick={() => setMesero('Rodrigo Gutierrez')}>
               <img src={'https://imgur.com/FUJTsHt.png'} alt="Rodrigo" />
               <div className="card-text">
                 <h3>Rodrigo Gutierrez</h3>
@@ -29,7 +29,7 @@ const User = ({setMesero}) => {
 
         <div className="rowUsers">
           <div className="card">
-            <Link to={{ pathname: "/menu", state: 'Eva Muñoz' }} onClick={() => setMesero('Eva Muñoz')}>
+            <Link to={{ pathname: "/menu"}} onClick={() => setMesero('Eva Muñoz')}>
               <img src={'https://imgur.com/kCeSqgD.png'} alt="eva" />
               <div className="card-text">
                 <h3>Eva Muñoz</h3>
@@ -38,7 +38,7 @@ const User = ({setMesero}) => {
           </div>
 
           <div className="card">
-            <Link to={{ pathname: "/menu", state: 'Camilo Figueroa' }} onClick={() => setMesero('Camilo Figueroa')} >
+            <Link to={{ pathname: "/menu"}} onClick={() => setMesero('Camilo Figueroa')} >
               <img src={'https://imgur.com/iDy440n.png'} alt="Camilo" />
               <div className="card-text">
                 <h3> Camilo Figueroa</h3>
@@ -50,7 +50,7 @@ const User = ({setMesero}) => {
 
         <div className="rowUsers">
           <div className="card">
-            <Link to={{ pathname: "/menu", state: 'Victor Acuña' }} onClick={() => setMesero('Victor Acuña')} >
+            <Link to={{ pathname: "/menu"}} onClick={() => setMesero('Victor Acuña')} >
               <img src={'https://imgur.com/t9TEfBW.png'} alt="Victor" />
               <div className="card-text">
                 <h3>Victor Acuña</h3>
@@ -59,7 +59,7 @@ const User = ({setMesero}) => {
           </div>
 
           <div className="card">
-           <Link to={{ pathname: "/menu", state: 'Carolina Quintanilla' }} onClick={() => setMesero('Carolina Quintanilla')} > 
+           <Link to={{ pathname: "/menu"}} onClick={() => setMesero('Carolina Quintanilla')} > 
               <img src={'https://imgur.com/JqYix8h.png'} alt="carolina" />
               <div className="card-text">
                 <h3>Carolina Quintanilla</h3>

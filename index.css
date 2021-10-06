@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
 *{
-  margin: 0;
-  padding: 0;
+margin: 0;
+padding: 0;
 }
 
 #root{
-  background-image: url(https://i.imgur.com/VdmnzCS.jpg);
-  background-attachment: fixed;
-  height: 120vh;
-  background-size: cover;
+background-image: url(https://i.imgur.com/VdmnzCS.jpg);
+background-position: center;
+height: 100vh;
+background-size: cover;
 }
 

@@ -27,12 +27,12 @@ export default function ItemsOrder(props) {
     <button onClick={()=>onRemove(item)} className="btnAR remove"> - </button>
   </div>
     <div className='quantyPriceItem'>
-     ${item.price}
+    ${item.price}
     </div>
     <button  onClick={()=>removeItems(item)} className= "btnRemoveItem">
         <img className='TrashIcon'
-           src={"https://imgur.com/BBuJ0lm.png"}
-           alt='trash'/>
+          src={"https://imgur.com/BBuJ0lm.png"}
+          alt='trash'/>
     </button>
 </div>
 
@@ -41,10 +41,9 @@ export default function ItemsOrder(props) {
   <div className='containerTotalBill'>
   {cartItems.length !== 0 && (
     <>
-    <hr></hr>
     <div className='rowPrice'>
       <div className='textBill'> <b className='textTotalOrder'> Total cuenta </b> </div>
-      <div className='textBill text-right'><strong>$ {itemsPrice} </strong></div>
+      <div className='textBill text-right'><b>$ {itemsPrice} </b></div>
     </div>
     </>
   )}

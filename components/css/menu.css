@@ -1,124 +1,102 @@
-.menuContainer{
-    background-color: rgba(42, 46, 61, 1);
-    height: 120vh;
+.menuContainer {
+background-color: rgba(42, 46, 61, 1);
+height: 100vh;
 }
-.Menu{
-    position: absolute;
-    margin: auto;
-    top: 3%;
-    left: 90%;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-auto-rows: auto auto auto auto;
-    grid-column-gap: 2rem;
-    column-gap: 2rem;
-}
-
-.cardMenu{
-    display: flex;
-    width: 10rem;
-    margin: 10% 20%;
-    background: #c4c4c4;
-    border-radius: 20px;
-    cursor: pointer;
-    flex-direction: column;
-
-}
-.card-body{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding: 4%;
-}
-.card-title{
-    text-align: center;
-}
-.card-price{
-    font-size: 150%;
-    font-weight: bold;
-    margin: 0%;
-}
-.breakfastIcon{
-    width: 5em;
-}
-.nameMenu{
-    display: flex;
-    left: 14%;
-    width: 20%;
-    position: relative;
-    top: 10%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-.titleBreakfast{
-    color: white;
-    font-size: 250%;
-    font-weight: bold;
-}
-.btnBurgir{
-    font-size: 200%;
-    border: 0ch;
-    color:  rgba(124, 64, 255, 1);
-    width: 20%;
-    height: 80%;
-    margin: -4%;
-}
-.select{
-    width: 100%;
-    margin-left: 20%;
-}
-.checkbox{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+.Menu {
+position: absolute;
+margin: auto;
+top: 0%;
+left: 78%;
+display: grid;
+grid-template-columns: auto auto;
+grid-auto-rows: auto auto auto auto;
+grid-column-gap: 2rem;
+column-gap: 1rem;
 }
 
-.nav__item-active{
-    background-color: blue;
+.cardMenu {
+display: flex;
+width: 10rem;
+margin: 10% 20%;
+background: #c4c4c4;
+border-radius: 20px;
+cursor: pointer;
+flex-direction: column;
 }
-.rowPrice{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    font-size: 1em;
-    margin-top: -5%;
-    width: 120%;
+.card-body {
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: flex-start;
+flex-direction: column;
+padding: 4%;
 }
-.btnRemoveItem{
-    background: #C4C4C4;
-    border: 0px;
+.card-title {
+text-align: center;
 }
-.TrashIcon{
-    width: 25%;
-    margin: 3%;
-}.titleOrderItems{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.card-price {
+font-size: 150%;
+font-weight: bold;
+margin: 0%;
 }
-@media screen and (min-width: 1025px){
-    .menuContainer{
-        background-color: rgba(42, 46, 61, 1);
-        height: 140vh;
-    }
-    .Menu{
-        position: absolute;
-        margin: auto;
-        top: 3%;
-        left: 90%;
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-auto-rows: auto auto auto auto;
-        grid-column-gap: 2rem;
-        column-gap: 2rem;
-    }
-    .navigation{
-        position: absolute;
-        height: 140vh;
-    }
+.breakfastIcon {
+width: 5em;
+}
+.nameMenu {
+display: flex;
+left: 14%;
+width: 20%;
+position: relative;
+top: 10%;
+display: flex;
+align-items: flex-end;
+justify-content: space-around;
+}
+.titleBreakfast {
+color: white;
+font-size: 250%;
+font-weight: bold;
+}
+.btnBurgir {
+font-size: 200%;
+border: 0ch;
+color: rgba(124, 64, 255, 1);
+width: 20%;
+height: 80%;
+margin: -4%;
+}
+.select {
+width: 100%;
+margin-left: 20%;
+}
+.checkbox {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.nav__item-active {
+background-color: blue;
+}
+.rowPrice {
+display: flex;
+flex-wrap: wrap;
+font-size: 1em;
+margin-top: 12%;
+position: absolute;
+right: 5%;
+}
+.btnRemoveItem {
+background: #c4c4c4;
+border: 0px;
+}
+.TrashIcon {
+width: 25%;
+margin: 3%;
+}
+.titleOrderItems {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
 }

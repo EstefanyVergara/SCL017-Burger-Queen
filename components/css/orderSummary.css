@@ -25,16 +25,17 @@ display: flex;
 text-align: center;
 justify-content: center;
 align-items: center;
+margin-bottom: 0;
 }
 .tableNumContainer {
-display: flex;
-justify-content: space-around;
-align-items: stretch;
-flex-direction: row;
-background: #c4c4c4;
-border-radius: 13px;
-width: 90%;
-padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+  background: #c4c4c4;
+  border-radius: 13px;
+  width: 90%;
+  padding-top: 3%;
 }
 .orderContainer {
 position: relative;
@@ -74,131 +75,109 @@ font-size: 26px;
 text-decoration-color: #ffffff;
 }
 
-.btn-order{
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
+.btn-order {
+display: flex;
+justify-content: center;
+flex-wrap: nowrap;
 }
-.productSelect{
-    display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    justify-content: space-around;
-    align-items: flex-start;
+.productSelect {
+display: flex;
+flex-direction: row;
+align-content: flex-start;
+justify-content: space-around;
+align-items: flex-start;
 }
-.titleProducSelect{
-    display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    justify-content: space-around;
-    align-items: flex-start;
-    align-items: center
+.titleProducSelect {
+display: flex;
+flex-direction: row;
+align-content: flex-start;
+justify-content: space-around;
+align-items: flex-start;
+align-items: center;
 }
-.textWaiterTable{
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    width: auto;
-    flex-direction: row;
-    align-items: baseline;
+.textWaiterTable {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 125%;
+  width: auto;
+  flex-direction: row;
+  align-items: baseline;
 }
-.textMesero, .textMesa{
-    font-size: 1.4rem;
-}
-.textWaiterTable2{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 1.3rem;
-    width: auto;
-    padding-left: 0%;
-}
-.textAdd{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 2rem;
-    color: #787373;
-    text-align: center;
-    margin-top: 5%;
-}
-.tittleitems{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 1.8rem;
-    font-weight: bold;
-    size: 20%;
-}
-.selectItemOrder{
-    display: flex;
-    flex-direction: row;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-.nameItem{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    width: 35%;
-}
-.qtyOrder{
-    display: flex;
-    flex-direction: row;
-    width: 20%;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.btnAR{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: white;
-    background: black;
-    width: 28%;
-    margin-top: 4%;
-}
-.textQuantity{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: black;
-    padding: 2%;
-}
-.orderList{
-    overflow:auto;
-    height: 23rem;
-    overflow-x: auto;
-}
-.containerTotalBill{
-    position: fixed;
-    width: 35%;
-}
-.quantyPriceItem{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 1.5rem;
-}
-.textBill{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 1.7rem;
-}
-.hr {
-    margin: 0rem;
-}
-.textTotalOrder{
-    font-size: 1.7rem;;
-}
-.containerLisItem{
-    overflow: auto;
-    height: 80%;
-}
-@media screen and (min-width: 1025px){
-    .summaryContainer {
-        height: 134%;
-    }
 
+.textAdd {
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-size: 1rem;
+color: #787373;
+text-align: center;
+margin-top: 5%;
+}
+.tittleitems {
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-size: 1.8rem;
+font-weight: bold;
+size: 20%;
+}
+.selectItemOrder {
+display: flex;
+flex-direction: row;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.nameItem {
+font-family: "Roboto", sans-serif;
+font-size: 1.5rem;
+text-align: center;
+width: 35%;
+}
+.qtyOrder {
+display: flex;
+flex-direction: row;
+width: 20%;
+justify-content: space-evenly;
+align-items: center;
+}
+.btnAR {
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-size: 1.8rem;
+font-weight: bold;
+color: white;
+background: black;
+width: 28%;
+margin-top: 4%;
+}
+.textQuantity {
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-size: 1.5rem;
+font-weight: bold;
+color: black;
+padding: 2%;
+}
+.orderList {
+height: 17rem;
+overflow-x: auto;
+}
+.containerTotalBill {
+position: fixed;
+width: 35%;
+}
+.quantyPriceItem {
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-size: 1.5rem;
+}
+.textBill {
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-size: 1.7rem;
+}
+.textTotalOrder {
+font-size: 1.7rem;
 }
