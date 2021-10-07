@@ -3,9 +3,8 @@ import "../components/css/nav.css";
 import data from "./data/menu.json";
 
 export default function NavMenu(props) {
-  const { onAdd, mesa, setDataActual, dataActual } = props;
-
   
+  const { onAdd, mesa, setDataActual, dataActual } = props;
   const dataBreakfast = data.breakfast;
 
   const showBurgir = () => {
@@ -73,4 +72,3 @@ export default function NavMenu(props) {
     </div>
   );
 }
-  

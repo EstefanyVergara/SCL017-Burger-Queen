@@ -16,7 +16,6 @@ return (
             Mesero
         </Link>
         <button className="btn-secondary" disabled>
-            {" "}
             Cocina
         </button>
         </div>
@@ -24,5 +23,5 @@ return (
     </>
 );
 };
-// 453201
+
 export default Identify;
