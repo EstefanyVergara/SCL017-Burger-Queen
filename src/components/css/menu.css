@@ -5,8 +5,8 @@ height: 100vh;
 .Menu {
 position: absolute;
 margin: auto;
-top: 0%;
-left: 78%;
+top:5%;
+left: 107%;
 display: grid;
 grid-template-columns: auto auto;
 grid-auto-rows: auto auto auto auto;
